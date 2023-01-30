@@ -1,5 +1,5 @@
 # North America Divided
 
-___
+# Errors
 
-# Known Errors
+1. Crashing on launching new game
