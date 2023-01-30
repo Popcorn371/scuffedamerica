@@ -239,7 +239,6 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_armor_production_idea = {
-			picture = 
 			
 			allowed_civil_war = {
 				always = yes
@@ -254,7 +253,6 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_californian_army = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -268,7 +266,6 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_californian_army_left = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -282,7 +279,6 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_californian_army_left_2 = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -298,7 +294,6 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_californian_army_left_3 = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -316,7 +311,6 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_californian_army_right = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -331,7 +325,6 @@ RCA_longshore_marines_idea = {
 		}	
 
 		RCA_californian_army_right_2 = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -348,7 +341,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_californian_army_right_3 = { 
-			picture = 
 
 			allowed_civil_war = {
 				always = yes
@@ -370,7 +362,6 @@ RCA_longshore_marines_idea = {
 		
 
 		RCA_industrial_unionism_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -383,7 +374,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_firepower_prioritization = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -397,7 +387,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_popular_mobilization_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -411,7 +400,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_popular_mobilization_idea_2 = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -427,7 +415,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_bomber_production_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -445,7 +432,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_fighter_production_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -460,7 +446,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_gun_production_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -475,7 +460,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_workplace_democracy_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -489,7 +473,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_collectivized_farms_idea = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -502,7 +485,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_increased_production_quotas = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
@@ -515,7 +497,6 @@ RCA_longshore_marines_idea = {
 		}
 
 		RCA_distrubuted_wealth = {
-			picture = 
 			allowed_civil_war = {
 				always = yes 
 			}
