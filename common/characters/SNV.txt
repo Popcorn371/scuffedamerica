@@ -1,0 +1,28 @@
+characters={
+	SNV_kirman={
+		name="Richard Kirman Sr."
+		portraits={
+			civilian={
+				large="gfx/leaders/SNV/leader_richard_kirman_sr.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SNV_mcarran={
+		name="Pat McCarran"
+		portraits={
+			civilian={
+				large="gfx/leaders/SNV/portrait_pat_mcarran.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

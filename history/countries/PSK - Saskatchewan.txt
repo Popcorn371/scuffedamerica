@@ -1,0 +1,48 @@
+capital = 388
+
+oob = "PSK_1936"
+
+starting_train_buffer = 3
+
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	interwar_antiair = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 23
+	fascism = 2
+	communism = 10
+	neutrality = 65
+}
+
+add_ideas = {
+	PSK_pallister_triangle_dustbowl
+	PSK_saskatchewan_light_infantry_idea
+}
+
+recruit_character = PSK_william_john_patterson
+recruit_character = PSK_andrew_mcnaughton
+recruit_character = PSK_peter_williams
+recruit_character = PSK_johannes_jones
+recruit_character = PSK_john_white
+recruit_character = PSK_alexander_jones
+recruit_character = PSK_jim_taylor
+

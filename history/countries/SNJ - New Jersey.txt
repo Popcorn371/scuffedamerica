@@ -1,0 +1,461 @@
+capital = 257
+
+oob = "SNJ_1936"
+
+starting_train_buffer = 3
+
+set_research_slots = 3 #screw off Preussen
+set_technology = {
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	early_fighter = 1
+	early_bomber = 1
+	heavy_fighter1 = 1
+	electronic_mechanical_engineering = 1 #thx Edison!
+    # radio_detection = 1
+	basic_train = 1
+
+	air_superiority = 1
+}
+#####
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+
+####
+
+add_ideas = {
+	#SNJ_irish_italian_mob_war 
+	#SNJ_Corrupt_workers_unions
+}
+
+set_rule = {
+	can_puppet = no
+	can_join_factions = no
+	can_create_factions = no
+}
+SNJ = {
+	create_faction = "American Coalition"
+}
+
+set_convoys = 130
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1931.11.3"
+	election_frequency = 48
+	elections_allowed = no
+	
+}
+
+set_variable = {
+	var = var_SNJ_debt
+	value = 100
+}
+set_variable = {
+	var = var_SNJ_debt_interest
+	value = 5
+}
+
+
+
+
+set_popularities = {
+	democratic = 23
+	fascism = 15
+	communism = 7
+	neutrality = 55
+}
+
+#create_faction = "American Federal Enclave" #Disband After Election
+#add_ideas = {
+	#NJ_calvary_training
+	#NJ_martial_law
+	#NJ_gold_lining
+	#NJ_the_new_jersey
+	#NJ_disheartend_patriots
+	#NJ_casino_cash
+	#NJ_the_last_state
+#}
+	
+
+create_country_leader = {
+	
+	name = "Harold G. Hoffman"
+	desc = "POLITICS_HAROLD_HOFFMAN"
+	picture = "Portrait_SNJ_Harold_G_Hoffman.dds"
+	expire = "1954.6.4"
+	ideology = despotism
+	traits = {
+
+	}
+}
+
+#############################################
+create_corps_commander = {
+    name = "Kent MacDonald"
+    picture = "portrait_kent_mc.dds"
+    traits = {
+
+    
+
+    }
+    skill = 1
+
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Stephen Hart Barlow"
+    picture = "portrait_stephen.dds"
+    traits = {
+	skilled_staffer
+    }
+    skill = 1
+
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Thomas Mclarney"
+    picture = "portrait_thomas_mc.dds"
+    traits = {
+        infantry_officer
+	
+    
+
+    }
+    skill = 1
+
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Herbert D. Forrest"
+    picture = "portrait_herbert_for.dds"
+    traits = {
+	skilled_staffer
+	infantry_officer
+    }
+    skill = 1
+
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Joseph Leimer"
+    picture = "portrait_joseph_le.dds"
+    traits = {
+	infantry_officer
+    }
+    skill = 1
+
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+    name = "Elvin E. Yehl"
+    picture = "portrait_elvin.dds"
+    traits = {
+	#
+    }
+    skill = 1
+
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+
+####
+#Spies
+####
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Isabelle Ace"
+		GFX = portrait_europe_generic_operative_female_23.dds
+		traits = { operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SNJ }
+	}
+
+	create_operative_leader = {
+		name = "Diana Krystal"
+		GFX = portrait_europe_generic_operative_female_26.dds
+		traits = { operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SNY }
+	}
+
+	create_operative_leader = {
+		name = "Juan Plata"
+		GFX = portrait_europe_generic_operative_male_1.dds
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SNJ SPA }
+	}
+
+	create_operative_leader = {
+		name = "Lawrence Everett"
+		GFX = portrait_europe_generic_operative_male_2.dds
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SNJ SNY SPA }
+	}
+}
+
+
+
+#########
+#Army
+########
+
+
+
+
+#############################
+#The Following use generic Portraits
+create_corps_commander = {
+	name = "Louis van Iersel"
+	picture = "Portrait_Louis_Van_Iersel.dds"
+	traits = {
+
+	naval_invader
+	war_hero
+		
+	}
+	skill = 2
+
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+
+
+
+1936.1.1 = {
+	if = {
+		limit = {
+			not = { has_dlc = "Man the Guns" }
+		}
+		create_equipment_variant = {
+			name = "Tribal Class"
+			type = destroyer_2
+			upgrades = {
+				ship_torpedo_upgrade = 2
+				destroyer_engine_upgrade = 2
+				ship_ASW_upgrade = 2
+				ship_anti_air_upgrade = 2
+			}
+		}
+		create_equipment_variant = {
+			name = "Edinburgh Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 3
+				ship_engine_upgrade = 3
+				ship_gun_upgrade = 3
+				ship_anti_air_upgrade = 3
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		
+		create_equipment_variant = {
+			name = "Illustrious Class"
+			type = ship_hull_carrier_2
+			name_group = ENG_CV_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries
+				front_1_custom_slot = ship_deck_space
+				mid_1_custom_slot = ship_armor_carrier_deck
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Crown Colony Class"
+			type = ship_hull_cruiser_3
+			name_group = ENG_CL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = ship_torpedo_1
+				mid_2_custom_slot = dp_ship_secondaries
+				rear_1_custom_slot = ship_light_medium_battery_2
+				rear_2_custom_slot = ship_anti_air_1
+			}
+		}
+		
+		create_equipment_variant = {
+			name = "J/K/N Class"
+			type = ship_hull_light_3
+			name_group = ENG_DD_HISTORICAL
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_sonar_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_depth_charge_2
+			}
+		}
+		create_equipment_variant = {
+			name = "King George V Class"
+			type = ship_hull_heavy_2
+			name_group = ENG_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_2
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = dp_ship_secondaries
+				rear_1_custom_slot = ship_heavy_battery_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Lion Class" # 1938 variant
+			type = ship_hull_heavy_2
+			name_group = ENG_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_3
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries
+				fixed_ship_armor_slot = ship_armor_bb_2
+				front_1_custom_slot = ship_anti_air_1
+				mid_1_custom_slot = ship_airplane_launcher_1
+				mid_2_custom_slot = dp_ship_secondaries
+				rear_1_custom_slot = ship_heavy_battery_3
+			}
+		}
+		
+	}
+}

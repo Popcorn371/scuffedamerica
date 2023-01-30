@@ -1,0 +1,76 @@
+﻿capital = 62
+
+oob = "PBC_1936"
+
+starting_train_buffer = 3
+
+add_ideas = {
+	PBC_Unemployment_All_Time_High
+	PBC_The_Union_Problems
+	PBC_Vancouver_Over_Centralization
+	PBC_Mine_Tax_Embezzlement_idea
+}
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	interwar_antiair = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+		early_carrier = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_depth_charges = 1
+		basic_fire_control_system = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+	}
+}
+set_convoys = 15
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 20
+	neutrality = 20
+}
+
+recruit_character = PBC_thomas_dufferin_pattullo
+recruit_character = PBC_simon_fraser_tolmie
+recruit_character = PBC_william_john_bowser
+recruit_character = PBC_henry_herbert_stevens
+recruit_character = PBC_alexander_ronald_okeden
+recruit_character = PBC_george_pearkes
+recruit_character = PBC_alex_von_rambler
+recruit_character = PBC_bob_evans
+recruit_character = PBC_alex_white

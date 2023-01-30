@@ -1,0 +1,58 @@
+﻿capital = 697
+
+oob = "SOH_1936"
+
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	gw_artillery = 1
+	basic_train = 1
+	interwar_antiair = 1
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_convoys = 0
+
+add_ideas = {
+	SOH_Great_Deppresion
+	SOH_Business_Deadlock
+	SOH_Memories_Of_The_Steek_Wars
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 29
+	fascism = 2
+	communism = 1
+	neutrality = 68
+}
+
+recruit_character = SOH_the_ohio_gang
+recruit_character = SOH_philip_johnson
+recruit_character = SOH_james_coxey
+recruit_character = SOH_frank_milano
+recruit_character = SOH_alvin_victor_donahey
+recruit_character = SOH_edward_albert_ostermann
+recruit_character = SOH_stanley_h_ford
+recruit_character = SOH_robert_sprague_beightler
+recruit_character = SOH_daniel_van_voorhis
+recruit_character = SOH_lucas_williams
+recruit_character = SOH_the_ohio_gang2

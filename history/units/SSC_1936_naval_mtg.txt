@@ -1,0 +1,13 @@
+units = {
+
+	######## NAVAL OOB ########
+	fleet = {
+		name = "South Carolina 1st Fleet"
+		naval_base = 1256 
+		task_force = {				
+			name = "temp task force 1"
+			location = 1256 # Boston
+			ship = { name = "Clemson Class" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SSC version_name = "Clemson Class" } } }	 		}		
+	}
+	
+}
