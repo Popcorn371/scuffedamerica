@@ -24,10 +24,6 @@ if = {
 }
 set_convoys = 0
 
-add_ideas = {
-	
-}
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"

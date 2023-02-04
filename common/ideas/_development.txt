@@ -59,9 +59,7 @@ ideas = {
 				}
 			}
 
-            allowed_to_remove = {
-				
-			}
+            
 			
 			cancel_if_invalid = no
 			ai_will_do = {

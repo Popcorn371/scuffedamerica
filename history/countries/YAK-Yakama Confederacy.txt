@@ -1,6 +1,6 @@
 ﻿capital = 526
 
-oob = ""
+#oob = ""
 
 # Starting tech
 set_research_slots = 3

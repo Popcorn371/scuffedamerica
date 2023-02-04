@@ -34,7 +34,7 @@ ideas = {
 
 ########################################################
 RCA_language_barrier = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -58,7 +58,7 @@ RCA_language_barrier = {
 		}
 		
 RCA_lack_of_rural_support = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -82,7 +82,7 @@ RCA_lack_of_rural_support = {
 			}
 		}
 RCA_CIO_opposition = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -105,7 +105,7 @@ RCA_CIO_opposition = {
 			}
 		}
 RCA_longshore_relief = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -130,7 +130,7 @@ RCA_longshore_relief = {
 			}
 		}
 RCA_longshore_marines_idea = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -154,7 +154,7 @@ RCA_longshore_marines_idea = {
 			}
 		}	
 		RCA_good_subs = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -178,7 +178,7 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_good_bships = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA
@@ -201,7 +201,7 @@ RCA_longshore_marines_idea = {
 			}
 		}
 		RCA_californian_red_army = {
-            picture = 
+            picture = GFX_idea_civialian_economy
 			
 			allowed = {
 				tag = RCA

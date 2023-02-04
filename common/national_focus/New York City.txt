@@ -4005,7 +4005,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 				category = artillery
 			}
 			set_technology = {
-				artillery0 = 1
+				artillery = 1
 			}
 		}
 	}

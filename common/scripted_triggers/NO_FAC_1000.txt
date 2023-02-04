@@ -4,7 +4,7 @@ DIPLOMACY_CREATE_FACTION_ENABLE_TRIGGER = {
 		limit = {
 			
 			#Requires all three to reurn true, otherwise false. TRUE = block
-			AND = {
+			
 			#Faction Distance Limiter.
 			OR = {
 			has_game_rule = { rule = RULE_NEIGHBOR_FACTION_DISTANCE option = FD_1 }
@@ -15,10 +15,7 @@ DIPLOMACY_CREATE_FACTION_ENABLE_TRIGGER = {
 			FROM = {has_war = yes}
 			var:FROM.OriginalCapitalState = {
 			OR = {
-			AND = {
-			ROOT = {has_war = yes}
-			var:ROOT.OriginalCapitalState = { distance_to = { value > 400 target = PREV
-			} } }
+			
 			AND = {
 			ROOT = {has_war = no}
 			var:ROOT.capital = { distance_to = { value > 400 target = PREV
@@ -199,7 +196,7 @@ DIPLOMACY_CREATE_FACTION_ENABLE_TRIGGER = {
 		}
 		has_game_rule = { rule = RULE_NEIGHBOR_FACTION_BYPASS option = NO }
 		}
-		}
+		
 		}
 		custom_trigger_tooltip = {
 			tooltip = FACTION_DISTANCE_CREATE_TT

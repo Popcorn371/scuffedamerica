@@ -85,7 +85,6 @@ ideas = {
     }
 	air_chief = {
 
-
         SNJ_charles_lindbergh_air = {
 
             picture = generic_air_europe_1

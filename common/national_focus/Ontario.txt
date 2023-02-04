@@ -3761,7 +3761,7 @@ focus_tree = {
     		category = artillery
 			}
 			set_technology = {
-    		artillery0 = 1
+    		artillery_0 = 1
 			}
 		}
 	}

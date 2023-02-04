@@ -33,7 +33,6 @@ if = {
 		basic_carrier = 1
 		transport = 1
 	}
-	set_naval_oob = "SFL_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -63,7 +62,6 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "SFL_1936_naval_mtg"
 }
 
 set_convoys = 30
