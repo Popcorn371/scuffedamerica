@@ -1,4 +1,5 @@
 # North America Divided
 - Original Repo | https://github.com/BattleSkorpion/nadivided-dev
-# Errors
-1. Crashing around feb 3-4
+# Checklist
+- Get navy working again
+- Fix the not being able to upgrade equipment
