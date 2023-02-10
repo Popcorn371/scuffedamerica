@@ -1006,24 +1006,24 @@ focus = {
         add_popularity = {
         ideology = communism
         popularity = 0.30
-    }    
+        }    
 		add_named_threat = { 
 		threat = 4
 		name = SCO_colorado_civil_war_tt
 		}
         SCO = {
         start_civil_war = {
-    ruling_party = neutrality
-    ideology = communism
+        ruling_party = neutrality
+        ideology = communism
     
     
-    capital = 318
-    states = { 
-       315 748 314 306 305 
-    }
-    keep_unit_leaders = {
-        33 44
-    }
+       capital = 315
+        states = { 
+          315 748 314 306 305 
+        }
+        keep_unit_leaders = {
+            33 44
+        }
     keep_political_leader = yes
     keep_political_party_members = yes
 }
@@ -3008,7 +3008,7 @@ focus = {
             factor = 25
         }
         available_if_capitulated = no
-        search_filters = {    }
+        #search_filters = {    }
         completion_reward = {
 		set_politics = {
 				ruling_party = communism
@@ -3017,7 +3017,7 @@ focus = {
 		remove_ideas = SCO_miner_unrest
 		hidden_effect = {
 		country_event = usastates_news.38
-		}
+        }
 		add_named_threat = { 
 		threat = 4
 		name = SCO_colorado_civil_war_tt
@@ -3027,7 +3027,7 @@ focus = {
             
         start_civil_war = {
 		ideology = neutrality
-		capital = 318
+		capital = 315
 		states = { 
 		318 317 316 
 		}

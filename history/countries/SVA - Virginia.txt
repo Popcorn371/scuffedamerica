@@ -96,9 +96,6 @@ set_technology = {
 	motorised_infantry = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	naval_bomber1 = 1
 	basic_train = 1
 	interwar_antiair = 1
 }
