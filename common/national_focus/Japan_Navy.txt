@@ -662,6 +662,7 @@ focus = {
 				exists = no 
 			}
 		}
+		will_lead_to_war_with = PBC
 		completion_reward = { 
 			create_wargoal = {
 				target = PBC
@@ -720,6 +721,8 @@ focus = {
 				exists = no 
 			}
 		}
+		will_lead_to_war_with = SWA
+		will_lead_to_war_with = SSW
 		completion_reward = { 
 			create_wargoal = {
 				target = SWA
@@ -748,6 +751,7 @@ focus = {
 				exists = no 
 			}
 		}
+		will_lead_to_war_with = SID
 		completion_reward = { 
 			create_wargoal = {
 				target = SID
@@ -775,6 +779,8 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = PYT
+		will_lead_to_war_with = PNT
 		completion_reward = { 
 			create_wargoal = {
 				target = PYT
@@ -831,6 +837,8 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SCA
+		will_lead_to_war_with = BAJ
 		completion_reward = { 
 			create_wargoal = {
 				target = SCA
@@ -854,6 +862,11 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SUT
+		will_lead_to_war_with = SNV
+		will_lead_to_war_with = SAZ
+		will_lead_to_war_with = SNM
+		will_lead_to_war_with = NAV
 		completion_reward = { 
 			create_wargoal = {
 				target = SUT
@@ -905,6 +918,16 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SMT
+		will_lead_to_war_with = SCO
+		will_lead_to_war_with = SKS
+		will_lead_to_war_with = SNE
+		will_lead_to_war_with = SWY
+		will_lead_to_war_with = SSD
+		will_lead_to_war_with = SND
+		will_lead_to_war_with = SMO
+		will_lead_to_war_with = LMO
+
 		completion_reward = { 
 			create_wargoal = {
 				target = SMT
@@ -956,6 +979,8 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = PSK
+		will_lead_to_war_with = PMB
 		completion_reward = { 
 			create_wargoal = {
 				target = PSK
@@ -1026,6 +1051,24 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = MEX
+		will_lead_to_war_with = MCM
+		will_lead_to_war_with = MCA
+		will_lead_to_war_with = MCH
+		will_lead_to_war_with = MGR 
+		will_lead_to_war_with = MMO
+		will_lead_to_war_with = MCO
+		will_lead_to_war_with = MDC
+		will_lead_to_war_with = MNL
+		will_lead_to_war_with = MOX
+		will_lead_to_war_with = MQR
+		will_lead_to_war_with = MSI
+		will_lead_to_war_with = MSO
+		will_lead_to_war_with = MTA
+		will_lead_to_war_with = MTB
+		will_lead_to_war_with = MYU
+		will_lead_to_war_with = BAJ
+		will_lead_to_war_with = MCI
 		completion_reward = { 
 			create_wargoal = {
 				target = MEX
@@ -1113,6 +1156,13 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = PON
+		will_lead_to_war_with = PQC
+		will_lead_to_war_with = PNS
+		will_lead_to_war_with = PEI
+		will_lead_to_war_with = PNL
+		will_lead_to_war_with = PNB
+		will_lead_to_war_with = PSP
 		completion_reward = { 
 			create_wargoal = {
 				target = PON
@@ -1156,6 +1206,13 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = HON
+		will_lead_to_war_with = GUA
+		will_lead_to_war_with = ELS
+		will_lead_to_war_with = COS
+		will_lead_to_war_with = PAN
+		will_lead_to_war_with = NIC
+		will_lead_to_war_with = BLZ
 		completion_reward = { 
 			create_wargoal = {
 				target = HON
@@ -1199,6 +1256,23 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SGA
+		will_lead_to_war_with = SFL
+		will_lead_to_war_with = STX
+		will_lead_to_war_with = SOK
+		will_lead_to_war_with = SLA
+		will_lead_to_war_with = SMS
+		will_lead_to_war_with = SAR
+		will_lead_to_war_with = STN
+		will_lead_to_war_with = SVA
+		will_lead_to_war_with = SNC
+		will_lead_to_war_with = SSC
+		will_lead_to_war_with = SKY
+		will_lead_to_war_with = SWV
+		will_lead_to_war_with = SAL
+		will_lead_to_war_with = SMD
+		will_lead_to_war_with = WDC
+		will_lead_to_war_with = SDE
 		completion_reward = { 
 			create_wargoal = {
 				target = SGA
@@ -1282,6 +1356,24 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SNY
+		will_lead_to_war_with = SMA 
+		will_lead_to_war_with = SOH
+		will_lead_to_war_with = SIN
+		will_lead_to_war_with = SIL
+		will_lead_to_war_with = SMI
+		will_lead_to_war_with = SMN
+		will_lead_to_war_with = SWI
+		will_lead_to_war_with = SIA
+		will_lead_to_war_with = SPA
+		will_lead_to_war_with = SNJ
+		will_lead_to_war_with = NYC
+		will_lead_to_war_with = SVT
+		will_lead_to_war_with = SCT
+		will_lead_to_war_with = SRI
+		will_lead_to_war_with = SNH
+		will_lead_to_war_with = SME
+		will_lead_to_war_with = SUP
 		completion_reward = { 
 			create_wargoal = {
 				target = SNY
@@ -1369,6 +1461,8 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SOR
+		will_lead_to_war_with = SRO
 		completion_reward = { 
 			create_wargoal = {
 				target = SOR
@@ -1392,6 +1486,7 @@ focus = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = PAB
 		completion_reward = { 
 			create_wargoal = {
 				target = PAB
@@ -1469,6 +1564,8 @@ focus = {
 				} 
 			}
 		}
+		will_lead_to_war_with = SAK
+		will_lead_to_war_with = SOJ
 		completion_reward = { 
 			create_wargoal = {
 				target = SAK

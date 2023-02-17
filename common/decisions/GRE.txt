@@ -2867,7 +2867,7 @@ GRE_colonization = {
             659 = {
                 set_variable = { colonization_progress = 25 }
                 add_manpower = 100
-                add_compliance = 50
+                #add_compliance = 50
             }
             
         }
@@ -2937,7 +2937,7 @@ GRE_colonization = {
             658 = {
                 set_variable = { colonization_progress = 25 }
                 add_manpower = 100
-                add_compliance = 50
+                #add_compliance = 50
             }
             
         }
@@ -3147,7 +3147,7 @@ GRE_colonization = {
             492 = {
                 set_variable = { colonization_progress = 25 }
                 add_manpower = 100
-                add_compliance = 50
+                #add_compliance = 50
             }
             
         }
@@ -4268,7 +4268,7 @@ GRE_colonization = {
             438 = {
                 set_variable = { colonization_progress = 25 }
                 add_manpower = 100
-                add_compliance = 50
+                #add_compliance = 50
             }
             
         }

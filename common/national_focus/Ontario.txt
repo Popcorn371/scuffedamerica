@@ -342,7 +342,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PMB
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -367,7 +367,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PNB
+		will_lead_to_war_with = PNS
+		will_lead_to_war_with = PEI
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -660,7 +662,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PQC
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -1137,7 +1139,7 @@ focus_tree = {
 		available = {
 			has_government = communism
 			}
-
+			will_lead_to_war_with = PMB
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -1203,7 +1205,7 @@ focus_tree = {
 		available = {
 			has_government = communism
 			}
-
+			will_lead_to_war_with = PNL
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -1231,7 +1233,7 @@ focus_tree = {
 		available = {
 			has_government = communism
 			}
-
+			will_lead_to_war_with = PNT
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -2945,7 +2947,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PQC
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3029,7 +3031,7 @@ focus_tree = {
 			factor = 1
 		}
 
-
+		will_lead_to_war_with = SMI
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3053,7 +3055,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = SOH
+		will_lead_to_war_with = SIL
+		will_lead_to_war_with = SIN
 		completion_reward = {
 			add_ideas = PON_We_Will_Never_Be_Yankees
 			create_wargoal = {
@@ -3214,7 +3218,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PQC
 		completion_reward = {
 			add_ideas = PON_Qubec_Uprisings
 			create_wargoal = {
@@ -3265,7 +3269,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PNS
+		will_lead_to_war_with = PEI
+		will_lead_to_war_with = PNB
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3377,7 +3383,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PMB
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3446,7 +3452,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PAB
+		will_lead_to_war_with = PSK
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3516,7 +3523,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PBC
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3540,7 +3547,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-
+		will_lead_to_war_with = PNT
+		will_lead_to_war_with = PYT
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -3760,9 +3768,7 @@ focus_tree = {
     		uses = 1
     		category = artillery
 			}
-			set_technology = {
-    		artillery_0 = 1
-			}
+		
 		}
 	}
 
@@ -4169,18 +4175,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
 		}
 	}
@@ -4392,13 +4387,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
-			}
+			
 		}
 	}
 

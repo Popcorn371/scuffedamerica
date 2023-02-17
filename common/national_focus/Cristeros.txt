@@ -863,7 +863,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-
+		will_lead_to_war_with = MSI
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1032,7 +1032,8 @@ focus_tree = {
 				country_exists = MEX
 			}
 		}
-
+		will_lead_to_war_with = MEX
+		will_lead_to_war_with = MCM
 		completion_reward = {
 			remove_ideas = MDC_Uneasy_Truce_with_Mexico
 			create_wargoal = {
@@ -1064,7 +1065,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-
+		will_lead_to_war_with = MCH
+		will_lead_to_war_with = MSO
+		will_lead_to_war_with = BAJ
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1099,7 +1102,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-
+		will_lead_to_war_with = MCO
+		will_lead_to_war_with = MNL
+		will_lead_to_war_with = MTA
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1135,7 +1140,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-
+		will_lead_to_war_with = MGR
+		will_lead_to_war_with = MOX
+		will_lead_to_war_with = MMO
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1171,6 +1178,11 @@ focus_tree = {
 			factor = 100
 		}
 
+		will_lead_to_war_with = MTB
+		will_lead_to_war_with = MQR
+		will_lead_to_war_with = MYU
+		will_lead_to_war_with = MCI
+		will_lead_to_war_with = MCA
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything

@@ -1496,7 +1496,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SNV
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1525,7 +1525,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SNV
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1580,7 +1580,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SNM
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1609,7 +1609,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SOR
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1665,7 +1665,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SNM
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1695,7 +1695,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SID
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1724,7 +1724,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SWA
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1817,7 +1817,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		will_lead_to_war_with = SUT
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything

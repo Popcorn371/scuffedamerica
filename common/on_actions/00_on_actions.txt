@@ -305,25 +305,25 @@ on_actions = {
 	}
 	
 	# From is owner country
-	on_army_leader_daily = {
-		effect = {
-			if = {
-				limit = {
-					check_variable = { random < 0.02 }
-					NOT = { has_trait = sick }
-					set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
-					divide_temp_variable = { temp = num_units }
-					check_variable = { temp > 0.75 }
-					NOT = { has_unit_leader_flag = recently_sick }
-				}
-				add_timed_unit_leader_trait = {
-					trait = sick
-					days = 30
-				}
-				unit_leader_event = { id = generic.17 }
-			}
-		}
-	}
+	#on_army_leader_daily = {
+	#	effect = {
+	#		if = {
+	#			limit = {
+	#				check_variable = { random < 0.02 }
+	#				NOT = { has_trait = sick }
+	#				set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
+	#				divide_temp_variable = { temp = num_units }
+	#				check_variable = { temp > 0.75 }
+	#				NOT = { has_unit_leader_flag = recently_sick }
+	#			}
+	#			add_timed_unit_leader_trait = {
+	#				trait = sick
+	#				days = 30
+	#			}
+				#unit_leader_event = { id = generic.17 }
+	#		}
+	#	}
+	#}
 	
 	# From is owner country
 	on_army_leader_won_combat = {

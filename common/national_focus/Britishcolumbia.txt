@@ -225,6 +225,8 @@ focus = {
 		}	
 		
 		}
+		will_lead_to_war_with = SOR
+		will_lead_to_war_with = SRO
 		completion_reward = {
 		create_wargoal = {
 					type = annex_everything
@@ -265,6 +267,7 @@ focus = {
 				}	
 			}	
 		}
+		will_lead_to_war_with = SMA
 		completion_reward = {	
 			create_wargoal = {
 					type = annex_everything
@@ -307,6 +310,7 @@ focus = {
 			}
 		}
 		available_if_capitulated = yes
+		will_lead_to_war_with = SCA
 		completion_reward = {	
 		create_wargoal = {
 					type = annex_everything
@@ -716,7 +720,11 @@ focus = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PAB
+		will_lead_to_war_with = SAK
+		will_lead_to_war_with = PYT
+		will_lead_to_war_with = PNT
+		will_lead_to_war_with = SWA
 		completion_reward = {	
 			#UI TOOLTIP
 			if = {
@@ -971,7 +979,7 @@ focus = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PYT
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -1547,6 +1555,7 @@ focus = {
 					}
 				}
 		}
+		will_lead_to_war_with = PAB
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -1575,7 +1584,7 @@ focus = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PYT
 		completion_reward = {	
 
 			create_wargoal = {
@@ -1605,7 +1614,8 @@ focus = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PSK
+		will_lead_to_war_with = PMB
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -1638,7 +1648,8 @@ focus = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PON
+		will_lead_to_war_with = PQC
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -1670,7 +1681,9 @@ focus = {
 		cost = 10
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PNS
+		will_lead_to_war_with = PEI
+		will_lead_to_war_with = PNB
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -1932,6 +1945,7 @@ focus = {
 		available = {
 		is_neighbor_of = SCA	
 		}
+		will_lead_to_war_with = SCA
 		completion_reward = {	
 		create_wargoal = {
 				type = annex_everything
@@ -3127,6 +3141,7 @@ focus = {
 			}
 		}
 		available_if_capitulated = yes
+		will_lead_to_war_with = SAK
 		completion_reward = {
 			create_wargoal = {
 				target = SAK
@@ -4028,6 +4043,7 @@ focus = {
 				}
 			}
 		}
+		will_lead_to_war_with = SAK
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -4518,6 +4534,7 @@ focus = {
 				has_government = communism
 			}
 		}
+		will_lead_to_war_with = PAB
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -4552,6 +4569,7 @@ focus = {
 				NOT = { has_government = communism }
 			}
 		}
+		will_lead_to_war_with = SWA
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -4585,6 +4603,7 @@ focus = {
 				country_exists = SRO
 			}
 		}
+		will_lead_to_war_with = SOR
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -5314,7 +5333,7 @@ focus = {
 			}
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PAB
 		completion_reward = {	
 			create_wargoal = {
 				type = annex_everything
@@ -5347,7 +5366,7 @@ focus = {
 			}
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = PYT
 		completion_reward = {	
 		create_wargoal = {
     type = annex_everything
@@ -5412,7 +5431,8 @@ focus = {
 			}
 
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = SOR
+		will_lead_to_war_with = SRO
 		completion_reward = {	
 		create_wargoal = {
     type = annex_everything
@@ -5457,6 +5477,7 @@ create_wargoal = {
 		core_the_united_states = yes	
 		}	
 		custom_effect_tooltip =SWA_USA_TT		
+		will_lead_to_war_with = SMN
 	create_wargoal = {
     type = annex_everything
     target = SMN

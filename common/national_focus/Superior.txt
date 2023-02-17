@@ -812,18 +812,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 25
 		}
 	}
@@ -1077,13 +1066,7 @@
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
-			}
+			
 		}
 	}
 
@@ -2826,7 +2809,7 @@ focus = {
         factor = 400
     }
     available_if_capitulated = no
-
+	will_lead_to_war_with = SMI
     completion_reward = {
 create_wargoal = {
 				type = annex_everything

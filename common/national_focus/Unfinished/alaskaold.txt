@@ -1467,7 +1467,7 @@
             y = 1
             cost = 10
            
-
+            will_lead_to_war_with = PNT
             completion_reward = {
             create_wargoal = {
             type = annex_everything
@@ -1485,7 +1485,7 @@
             y = 1
             cost = 10
            
-
+            will_lead_to_war_with = PBC
             completion_reward = {
             create_wargoal = {
             type = annex_everything
@@ -1927,7 +1927,7 @@
             y = 1
             cost = 10
            
-
+            will_lead_to_war_with = PYT
             completion_reward = {
             create_wargoal = {
             type = annex_everything
@@ -1944,7 +1944,7 @@
             y = 1
             cost = 10
            
-
+            will_lead_to_war_with = PBC
             completion_reward = {
             create_wargoal = {
             type = annex_everything
@@ -1961,7 +1961,7 @@
             y = 1
             cost = 10
            
-
+            will_lead_to_war_with = SWA
             completion_reward = {
             create_wargoal = {
             type = annex_everything

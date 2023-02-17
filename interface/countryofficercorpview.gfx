@@ -38,14 +38,6 @@ spriteTypes = {
 	}
 
 	corneredTileSpriteType = {
-		name = "GFX_spirit_glow"
-		size= { x=505 y=242 }
-		textureFile = "gfx/interface/officer_corp/spirit_glow.dds"
-		borderSize = { x=6 y=6 }
-		tilingCenter = yes
-	}
-
-	corneredTileSpriteType = {
 		name = "GFX_air_tiled_marble_bg"
 		size= { x=505 y=242 }
 		textureFile = "gfx/interface/officer_corp/officer_corp_bg_air.dds"
@@ -362,4 +354,15 @@ corneredTileSpriteType = {
 	effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 }
 
+frameAnimatedSpriteType = {
+	name = "GFX_ongoing_generic_glow_yellow"
+	texturefile = "gfx/interface/ongoing_generic_glow_yellow.dds"
+	noOfFrames = 3
+	animation_rate_fps = 1
+	looping = yes
+	play_on_show = yes
+	pause_on_loop = 0.0
+	alwaystransparent = yes
+	effectFile = "gfx/FX/buttonstate_blendframes.lua"
+}
 }

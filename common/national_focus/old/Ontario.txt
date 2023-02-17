@@ -1485,14 +1485,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = PON_nav_bomb_1
-				bonus = 1
-				uses = 1
-				technology = naval_bomber1
-				technology = naval_bomber2
-				technology = naval_bomber3
-			}
+			
 		}
 	}
 #
@@ -1513,10 +1506,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = nav_bomber_equipment_1
-				amount = 200
-			}
+			
 		}
 	}
 #
@@ -1584,14 +1574,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = PON_cas_1
-				bonus = 1
-				uses = 1
-				technology = CAS1
-				technology = CAS2
-				technology = CAS3
-			}
+			
 		}
 	}
 #
@@ -1600,7 +1583,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = PON_invest_in_cas}
 		available = {
-			has_tech = CAS1
+			#has_tech = CAS1
 		}
 		x = 25
 		y = 6

@@ -716,7 +716,9 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MEX
+        will_lead_to_war_with = MCL
+        will_lead_to_war_with = MAC
         completion_reward = {
             if = {
                 limit = {
@@ -771,7 +773,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MDC
         completion_reward = {
             create_wargoal = {
                 target = MDC

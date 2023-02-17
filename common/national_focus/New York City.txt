@@ -1379,6 +1379,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SNY
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SNY }
 		}
@@ -1406,6 +1407,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SNJ
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SNJ}
 		}
@@ -1433,6 +1435,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SDE
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SDE }
 		}
@@ -1460,6 +1463,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SMD
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SMD }
 		}
@@ -1487,6 +1491,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SPA
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SPA }
 		}
@@ -1515,6 +1520,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SVA
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SVA }
 		}
@@ -1542,6 +1548,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = WDC
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = WDC }
 		}
@@ -2367,6 +2374,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SNY
 		completion_reward = {
 			SNY = {
 				end_puppet = NYC
@@ -2787,6 +2795,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SNJ
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SNJ }
 		}
@@ -3547,6 +3556,8 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = PON
+		will_lead_to_war_with = PQC
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = PON }
 			create_wargoal = { type = annex_everything target = PQC }
@@ -3577,6 +3588,10 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = PNS
+		will_lead_to_war_with = PNB
+		will_lead_to_war_with = SME
+		will_lead_to_war_with = PEI
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = PNS }
 			create_wargoal = { type = annex_everything target = PNB }
@@ -3686,6 +3701,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SPA
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SPA }
 			core_pennsylvania = yes
@@ -3714,6 +3730,8 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SVT
+		will_lead_to_war_with = SNH
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SVT }
 			create_wargoal = { type = annex_everything target = SNH }
@@ -3806,6 +3824,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		complete_tooltip = {
 
 		}
+		will_lead_to_war_with = SME
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = SME }
 			core_maine = yes
@@ -4407,9 +4426,7 @@ continuous_focus_position = { x = 0001 y = 2200 }
 		}
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			set_technology = {
-				naval_bomber1 = 1
-			}
+			
 		}
 	}
 	focus = {

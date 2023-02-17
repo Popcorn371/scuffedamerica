@@ -1355,7 +1355,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = SAK
 		completion_reward = {
 			 create_wargoal = {
                 target = SAK
@@ -1381,7 +1381,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PAB
 		completion_reward = {
 			 create_wargoal = {
                 target = PAB
@@ -1405,7 +1405,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PBC
 		completion_reward = {
 			 create_wargoal = {
                 target = PBC
@@ -1457,7 +1457,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PSK
 		completion_reward = {
 			 create_wargoal = {
                 target = PSK
@@ -1574,7 +1574,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PMB
 		completion_reward = {
 			 create_wargoal = {
                 target = PMB
@@ -1598,7 +1598,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PON
 		completion_reward = {
 			 create_wargoal = {
                 target = PON
@@ -1622,7 +1622,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PNT
 		completion_reward = {
 			 create_wargoal = {
                 target = PNT
@@ -2081,13 +2081,7 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-			}
+			
 			if = {
 				limit = {
 					capital_scope = {

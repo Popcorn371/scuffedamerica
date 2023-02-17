@@ -900,6 +900,7 @@ focus_tree = {
         available_if_capitulated = yes
         #MS may exist and will if player goes for a peace treaty 
         #if ai id Douglas than MS will be around
+        will_lead_to_war_with = SMS
         completion_reward = {
             create_wargoal = {
                 target = SMS
@@ -1114,6 +1115,7 @@ focus_tree = {
             factor = 100
         }
         available_if_capitulated = no
+        will_lead_to_war_with = SLA
         ###create faction### ###send event to join them
         completion_reward = {
             create_wargoal = {
@@ -1180,6 +1182,15 @@ focus_tree = {
         }
         available_if_capitulated = no
         #weelkly man power 
+        will_lead_to_war_with = SLA
+        will_lead_to_war_with = SGA
+        will_lead_to_war_with = SSC
+        will_lead_to_war_with = SNC
+        will_lead_to_war_with = STN
+        will_lead_to_war_with = SIL
+        will_lead_to_war_with = SMO
+        will_lead_to_war_with = SKY
+        will_lead_to_war_with = SAR
         completion_reward = {
             set_cosmetic_tag = NOFISLAM            
             add_popularity = {

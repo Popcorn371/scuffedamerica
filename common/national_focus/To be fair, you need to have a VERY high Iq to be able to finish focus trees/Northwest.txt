@@ -439,6 +439,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SAK
+		will_lead_to_war_with = PYT
 		completion_reward = {
 		create_wargoal = { type = annex_everything target = SAK }
 		create_wargoal = { type = annex_everything target = PYT }
@@ -461,6 +463,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SMB
+		will_lead_to_war_with = PSK
 		completion_reward = {
 		create_wargoal = { type = annex_everything target = SMB }
 		create_wargoal = { type = annex_everything target = PSK }
@@ -483,6 +487,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PAB
 		completion_reward = {
 		create_wargoal = { type = annex_everything target = PAB }
 		}
@@ -554,6 +559,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PYT
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = PYT }
 		}

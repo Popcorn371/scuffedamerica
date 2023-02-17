@@ -70,7 +70,7 @@ focus = {
 				popularity = 0.05
             }
 	    
-	       promote_character = SSC_maybank
+	       #promote_character = SSC_maybank
 	    
 	    
 	    
@@ -404,7 +404,7 @@ focus = {
 		available_if_capitulated = yes 
 		prerequisite = { focus = SSC_greater_carolina}
         
-		
+		will_lead_to_war_with = SGA
 		completion_reward = { 
 			 create_wargoal = {
                 target = SGA
@@ -429,7 +429,7 @@ focus = {
 
 		prerequisite = { focus = SSC_greater_carolina}
         
-		
+		will_lead_to_war_with = SNC
 		completion_reward = { 
 	   create_wargoal = {
                 target = SNC
@@ -1056,18 +1056,7 @@ focus = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
 		}
 	}

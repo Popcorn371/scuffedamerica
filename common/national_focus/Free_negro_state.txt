@@ -675,7 +675,7 @@ focus = {
             factor = 100
         }
         available_if_capitulated = yes
-         
+        will_lead_to_war_with = SGA
         completion_reward = {
      claim_georgia = yes
      create_wargoal = {

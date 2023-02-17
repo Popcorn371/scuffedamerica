@@ -32,13 +32,8 @@ country_event = {
     option = {
         name = MSH.1.c
         ai_chance = { factor = 25 }
-        set_technology = {
-            fighter1 = 1
-        }
-        add_equipment_to_stockpile = {
-            type = fighter_equipment
-            amount = 500
-        }
+        
+    
     }
     option = {
         name = MSH.1.e

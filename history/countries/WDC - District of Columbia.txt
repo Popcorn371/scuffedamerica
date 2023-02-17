@@ -2,7 +2,7 @@ capital = 44
 
 oob = "WDC_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 add_ideas = {
 	extensive_conscription

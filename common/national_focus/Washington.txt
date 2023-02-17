@@ -1269,6 +1269,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SID
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1419,6 +1420,7 @@ focus_tree = {
 			factor = 1
 		}
 		#eventforcalitogivepermissiontoWA
+		will_lead_to_war_with = SOR
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -3515,6 +3517,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SID
 		completion_reward = {
 			unlock_decision_category_tooltip = SWA_progressive_cores
 			create_wargoal = {
@@ -3535,6 +3538,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SOR
+		will_lead_to_war_with = SRO
 		completion_reward = {
 		add_political_power = -50	
 		core_all_of_oregon = yes	
@@ -3563,6 +3568,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SMT
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -3589,6 +3595,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SND
+		will_lead_to_war_with = SSD
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -4747,6 +4755,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SRO
 		completion_reward = {
 			create_wargoal = {
     type = annex_everything
@@ -4914,6 +4923,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PBC
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -4939,6 +4949,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SAK
 		completion_reward = {
 			create_wargoal = {
     type = annex_everything
@@ -4963,6 +4974,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PYT
 		completion_reward = {
 		create_wargoal = {
     type = annex_everything
@@ -5878,6 +5890,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SRO
+		will_lead_to_war_with = SOR
 		completion_reward = {
 		core_all_of_oregon = yes
 		create_wargoal = {
@@ -5982,6 +5996,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PAB
 		completion_reward = {
 		create_wargoal = {
     	type = annex_everything
@@ -6001,6 +6016,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PBC
 		completion_reward = {
 		create_wargoal = {
     	type = annex_everything
@@ -6023,6 +6039,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PYT
 		completion_reward = {
 		create_wargoal = {
    	 	type = annex_everything
@@ -6045,6 +6062,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SAK
+		will_lead_to_war_with = SOJ
 		completion_reward = {
 		create_wargoal = {
    	 	type = annex_everything
@@ -6411,6 +6430,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PBC
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -6431,6 +6451,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SOR
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -6453,6 +6474,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PYT
+		will_lead_to_war_with = SAK
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -6478,6 +6501,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SWY
+		will_lead_to_war_with = SMT
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -6501,6 +6526,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SID
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -7077,6 +7103,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PBC
 		completion_reward = {
 		add_political_power = -75	
 		hidden_effect = {
@@ -7100,6 +7127,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SID
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -7124,6 +7152,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PYT
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -7149,6 +7178,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SOR
+		will_lead_to_war_with = SRO
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -7195,6 +7226,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SCA
+		will_lead_to_war_with = SNV
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything

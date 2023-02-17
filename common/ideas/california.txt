@@ -1443,7 +1443,7 @@ ideas = {
 	tank_manufacturer = { 
 		designer = yes
 		SCA_cali_tank_manu = {
-			picture = SCA_tank_destroyer_board
+			picture = generic_bourgeoisie
 			allowed = {
 				original_tag = SCA
 			}
@@ -1455,7 +1455,7 @@ ideas = {
 			}
 		}
 		SCA_tank_destroyer_board = {
-			picture = SCA_tank_destroyer_board
+			picture = SNC_David_Bagley
 			allowed = {
 				original_tag = SCA
 			}
@@ -1488,6 +1488,7 @@ ideas = {
 			}
 		}
 		SCA_army_ordnance_department = {
+			picture = SCA_georgejhatfield
 			allowed = {
 				original_tag = SCA
 			}
@@ -1640,7 +1641,7 @@ ideas = {
 			}
 		}
 		SCA_motor_company = {
-			picture = GFX_
+			picture = man_five_year_plan_industry
 			allowed = {
 				original_tag = SCA
 			}
@@ -1652,6 +1653,7 @@ ideas = {
 			}
 		}
 		SCA_island_arsenal = {
+			picture = generic_army_minister
 			allowed = {
 				original_tag = SCA
 			}

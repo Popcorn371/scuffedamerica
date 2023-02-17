@@ -500,6 +500,7 @@ focus_tree = {
 		relative_position_id = SIL_interventionism
 		mutually_exclusive = { focus = SIL_aid_indiana}
 		prerequisite = { focus = SIL_interventionism  }
+		will_lead_to_war_with = SIN
 		completion_reward = {
 		create_wargoal = {
     	type = annex_everything
@@ -539,6 +540,7 @@ focus_tree = {
 		available = {
 		is_neighbor_of = SOH	
 		}
+		will_lead_to_war_with = SOH
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -558,6 +560,7 @@ focus_tree = {
 		available = {
 			
 		}
+		will_lead_to_war_with = SWI
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -594,6 +597,7 @@ focus_tree = {
 		available = {
 		is_neighbor_of = SMI	
 		}
+		will_lead_to_war_with = SMI
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1503,6 +1507,7 @@ focus_tree = {
 		}	
 		}
 		prerequisite = { focus = SIL_spread_revolution_to_the_great_lakes  } 
+		will_lead_to_war_with = SIN
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1529,6 +1534,7 @@ focus_tree = {
 		}	
 		}
 		prerequisite = { focus = SIL_indiana  } 
+		will_lead_to_war_with = SOH
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1555,6 +1561,7 @@ focus_tree = {
 		is_neighbor_of = SMI	
 		}
 		prerequisite = { focus = SIL_spread_revolution_to_the_great_lakes  } 
+		will_lead_to_war_with = SMI
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1581,6 +1588,7 @@ focus_tree = {
 		is_neighbor_of = SWI	
 		}
 		prerequisite = { focus = SIL_SMI  } 
+		will_lead_to_war_with = SWI
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1723,6 +1731,7 @@ focus_tree = {
 		completion_reward = { 
 		#decisions to core conquered stuff	
 		#decision to ask ND to join their faction
+		will_lead_to_war_with = SIA
 		create_wargoal = {
 				type = annex_everything
 				target = SIA
@@ -1741,6 +1750,8 @@ focus_tree = {
 		country_exists = SNE
 		}
 		prerequisite = { focus = SIL_SIA  }
+		will_lead_to_war_with = SNE
+		will_lead_to_war_with = SKS
 		completion_reward = { 
 		#decisions to core conquered stuff	
 		create_wargoal = {
@@ -1765,6 +1776,8 @@ focus_tree = {
 		country_exists = SMO
 		}
 		prerequisite = { focus = SIL_declare_longism_a_success_in_illinois  }
+		will_lead_to_war_with = SMO
+		will_lead_to_war_with = LMO
 		completion_reward = { 
 		create_wargoal = {
 				type = annex_everything
@@ -1788,6 +1801,8 @@ focus_tree = {
 		country_exists = SAR
 		}
 		prerequisite = { focus = SIL_missourian_populism  }
+		will_lead_to_war_with = SAR
+		will_lead_to_war_with = SOK
 		completion_reward = { 
 		create_wargoal = {
 				type = annex_everything

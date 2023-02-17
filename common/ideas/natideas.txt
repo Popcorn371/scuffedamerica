@@ -1,0 +1,449 @@
+ideas = {
+nat_diplomatic = {
+nat_diplomatic_0 = {
+	removal_cost = -1
+picture = natdiplomatic0
+default = yes
+available = { IF ={ has_idea = nat_diplomatic_0 } }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_diplomatic_1 = {
+picture = natdiplomatic1
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_diplomatic_0
+has_idea = nat_diplomatic_1 }
+}
+traits { nat_diplomatictraits_1 }
+ai_will_do = { factor = 40 }
+}
+
+nat_diplomatic_2 = {
+picture = natdiplomatic2
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_diplomatic_1
+has_idea = nat_diplomatic_2 }
+}
+traits { nat_diplomatictraits_2 }
+ai_will_do = { factor = 40 }
+}
+
+nat_diplomatic_3 = {
+picture = natdiplomatic3
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_diplomatic_2
+has_idea = nat_diplomatic_3 }
+}
+traits { nat_diplomatictraits_3 }
+ai_will_do = { factor = 40 }
+}
+
+nat_diplomatic_4 = {
+picture = natdiplomatic4
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_diplomatic_3
+has_idea = nat_diplomatic_4 }
+}
+traits { nat_diplomatictraits_4 }
+ai_will_do = { factor = 40 }
+}
+
+nat_diplomatic_5 = {
+picture = natdiplomatic5
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_diplomatic_4
+has_idea = nat_diplomatic_5 }
+}
+traits { nat_diplomatictraits_5 }
+ai_will_do = { factor = 80 }
+}
+}
+
+nat_military = {
+
+nat_military_0 = {
+picture = natmilitary0
+removal_cost = -1
+default = yes
+available = { IF ={ has_idea = nat_military_0 } }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_military_1 = {
+picture = natmilitary1
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_military_0
+has_idea = nat_military_1 }
+}
+traits { nat_militarytraits_1 }
+ai_will_do = { factor = 40 }
+}
+
+nat_military_2 = {
+picture = natmilitary2
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_military_1
+has_idea = nat_military_2 }
+}
+traits {  nat_militarytraits_2 }
+ai_will_do = { factor = 40 }
+}
+
+nat_military_3 = {
+picture = natmilitary3
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_military_2
+has_idea = nat_military_3 }
+}
+traits {  nat_militarytraits_3 }
+ai_will_do = { factor = 40 }
+}
+
+nat_military_4 = {
+picture = natmilitary4
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_military_3
+has_idea = nat_military_4 }
+}
+traits { nat_militarytraits_4 }
+ai_will_do = { factor = 40 }
+}
+
+nat_military_5 = {
+picture = natmilitary5
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_military_4
+has_idea = nat_military_5 }
+}
+traits { nat_militarytraits_5 }
+ai_will_do = { factor = 40 }
+}
+}
+
+nat_technology = {
+nat_technology_0 = {
+picture = nattechnology0
+removal_cost = -1
+default = yes
+available = { IF ={ has_idea = nat_technology_0 } }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_technology_1 = {
+picture = nattechnology1
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_technology_0
+has_idea = nat_technology_1 }
+}
+traits { nat_technologytraits_1 }
+ai_will_do = { factor = 40 }
+}
+
+nat_technology_2 = {
+picture = nattechnology2
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_technology_1
+has_idea = nat_technology_2 }
+}
+traits { nat_technologytraits_2 }
+ai_will_do = { factor = 40 }
+}
+
+nat_technology_3 = {
+picture = nattechnology3
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_technology_2
+has_idea = nat_technology_3 }
+}
+traits { nat_technologytraits_3 }
+ai_will_do = { factor = 40 }
+}
+
+nat_technology_4 = {
+picture = nattechnology4
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_technology_3
+has_idea = nat_technology_4 }
+}
+traits { nat_technologytraits_4 }
+ai_will_do = { factor = 40 }
+}
+
+nat_technology_5 = {
+picture = nattechnology5
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_technology_4
+has_idea = nat_technology_5 }
+}
+traits { nat_technologytraits_5 }
+ai_will_do = { factor = 40 }
+}
+}
+
+nat_expansion = {
+nat_expansion_0 = {
+picture = natexpansion0
+removal_cost = -1
+default = yes
+available = { IF ={ has_idea = nat_expansion_0 } }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_expansion_1 = {
+picture = natexpansion1
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_expansion_0
+has_idea = nat_expansion_1 }
+}
+traits {  nat_expansiontraits_1}
+ai_will_do = { factor = 20 }
+}
+
+nat_expansion_2 = {
+picture = natexpansion2
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_expansion_1
+has_idea = nat_expansion_2 }
+}
+traits {  nat_expansiontraits_2}
+ai_will_do = { factor = 20 }
+}
+
+nat_expansion_3 = {
+picture = natexpansion3
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_expansion_2
+has_idea = nat_expansion_3 }
+}
+traits { nat_expansiontraits_3 }
+ai_will_do = { factor = 20 }
+}
+
+nat_expansion_4 = {
+picture = natexpansion4
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_expansion_3
+has_idea = nat_expansion_4 }
+}
+traits { nat_expansiontraits_4 }
+ai_will_do = { factor = 20 }
+}
+
+nat_expansion_5 = {
+picture = natexpansion5
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_expansion_4
+has_idea = nat_expansion_5 }
+}
+traits { nat_expansiontraits_5 }
+ai_will_do = { factor = 40 }
+}
+}
+
+nat_population = {
+nat_population_0 = {
+picture = natmanpower0
+removal_cost = -1
+default = yes
+available = { IF ={ has_idea = nat_population_0 } }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_population_1 = {
+picture = natmanpower1
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_population_0
+has_idea = nat_population_1 }
+}
+traits { nat_populationtraits_1 }
+ai_will_do = { factor = 10 }
+}
+
+nat_population_2 = {
+picture = natmanpower2
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_population_1
+has_idea = nat_population_2 }
+}
+traits { nat_populationtraits_2 }
+ai_will_do = { factor = 10 }
+}
+
+nat_population_3 = {
+picture = natmanpower3
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_population_2
+has_idea = nat_population_3 }
+}
+traits { nat_populationtraits_3 }
+ai_will_do = { factor = 10 }
+}
+
+nat_population_4 = {
+picture = natmanpower4
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_population_3
+has_idea = nat_population_4 }
+}
+traits { nat_populationtraits_4 }
+ai_will_do = { factor = 10 }
+}
+
+nat_population_5 = {
+picture = natmanpower5
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_population_4
+has_idea = nat_population_5 }
+}
+traits { nat_populationtraits_5 }
+ai_will_do = { factor = 20 }
+}
+}
+
+nat_economic = {
+
+nat_economic_0 = {
+picture = nateconomic0
+removal_cost = -1
+default = yes
+available = { IF ={ has_idea = nat_economic_0} }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_economic_1 = {
+picture = nateconomic1
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_economic_0
+has_idea = nat_economic_1 }
+}
+traits { nat_economictraits_1 }
+ai_will_do = { factor = 40 }
+}
+
+nat_economic_2 = {
+picture = nateconomic2
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_economic_1
+has_idea = nat_economic_2 }
+}
+traits { nat_economictraits_2 }
+ai_will_do = { factor = 40 }
+}
+
+nat_economic_3 = {
+picture = nateconomic3
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_economic_2
+has_idea = nat_economic_3 }
+}
+traits { nat_economictraits_3 }
+ai_will_do = { factor = 40 }
+}
+
+nat_economic_4 = {
+picture = nateconomic4
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_economic_3
+has_idea = nat_economic_4 }
+}
+traits { nat_economictraits_4 }
+ai_will_do = { factor = 40 }
+}
+
+nat_economic_5 = {
+picture = nateconomic5
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_economic_4
+has_idea = nat_economic_5 }
+}
+traits { nat_economictraits_5 }
+ai_will_do = { factor = 40 }
+}
+}
+nat_pri =  {
+
+nat_no_pri = {
+picture = nateconomic0
+removal_cost = -1
+default = yes
+available = { IF ={ has_idea = nat_no_pri} }
+traits {  }
+ai_will_do = { factor = 0 }
+}
+
+nat_army_pri = {
+picture = priarmypic
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_no_pri
+has_idea = nat_navy_pri
+has_idea = nat_air_pri
+has_idea = nat_army_pri}
+}
+traits { nat_army_pritraits }
+ai_will_do = { factor = 40 }
+}
+
+nat_air_pri = {
+picture = priairpic
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_no_pri
+has_idea = nat_navy_pri
+has_idea = nat_air_pri
+has_idea = nat_army_pri}
+}
+traits { nat_air_pritraits }
+ai_will_do = { factor = 40 }
+}
+
+nat_navy_pri = {
+picture = prinavypic
+removal_cost = -1
+available = {
+OR ={ has_idea = nat_no_pri
+has_idea = nat_navy_pri
+has_idea = nat_air_pri
+has_idea = nat_army_pri}
+}
+traits { nat_navy_pritraits }
+ai_will_do = { factor = 40 }
+}
+}
+}

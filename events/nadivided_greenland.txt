@@ -835,7 +835,7 @@ country_event = { #Iron ore discovered
             add_resource = {
                 type = chromium
                 amount = 1
-                state = colonization_target
+                state = THIS
             }
             increase_in_colonization_progress = yes
         }
@@ -878,11 +878,11 @@ country_event = { #Tungsten Discovered
         var:colonization_target = {
             add_manpower = 500
             add_extra_state_shared_building_slots = 1
-            add_resource = {
-                type = tungsten 
-                amount = 3
-                state = THIS
-            }
+            #add_resource = {
+            #    type = tungsten 
+            #    amount = 3
+            #    state = THIS
+            #}
             increase_in_colonization_progress = yes
         }
     }
@@ -1447,7 +1447,6 @@ country_event = { #Expedition to Iceland
             infantry_weapons1 = 1
             support_weapons = 1
             support_weapons2 = 1
-            bicycle_infantry1 = 1
             tech_mountaineers = 1
             tech_engineers = 1
             tech_recon = 1

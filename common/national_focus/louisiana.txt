@@ -1706,7 +1706,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = SMS
         completion_reward = {
             create_wargoal = {
                 target = SMS
@@ -1740,7 +1740,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = DOU
         completion_reward = {
             create_wargoal = {
                 target = DOU
@@ -1779,7 +1779,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = STN
         completion_reward = {
             create_wargoal = {
                 target = STN
@@ -2853,6 +2853,7 @@ focus_tree = {
 		country_exists = SAR
 		}
 		}
+        will_lead_to_war_with = SAR
         completion_reward = {
             claim_arkansas = yes
             create_wargoal = {
@@ -2950,7 +2951,7 @@ focus_tree = {
         }
         
 		prerequisite = { focus = SLA_economy_of_revenge }
-		
+		will_lead_to_war_with = STX
 		completion_reward = { 
             create_wargoal = {
                 target = STX
@@ -3019,6 +3020,7 @@ focus_tree = {
         
 		prerequisite = { focus = SLA_little_rock_war_games }
 		#goalwillbe to puppet them  
+        will_lead_to_war_with = ORL
 		completion_reward = { 
             ####take new orleans
             create_wargoal = {

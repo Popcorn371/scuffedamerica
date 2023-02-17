@@ -1156,7 +1156,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = JAM
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1188,7 +1188,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = BAH
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1221,7 +1221,8 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = HAI
+        will_lead_to_war_with = AOH
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1257,7 +1258,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = DOM
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1289,7 +1290,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = PRR
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1321,7 +1322,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = UAF
         completion_reward = {
             create_wargoal = {
                 type = annex_everything

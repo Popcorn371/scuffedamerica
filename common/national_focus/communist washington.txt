@@ -1816,6 +1816,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PBC
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1846,6 +1847,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SID
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -2057,6 +2059,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SCA
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -2478,6 +2481,7 @@ add_popularity = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PYT
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -2516,6 +2520,7 @@ add_popularity = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SAK
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -2551,6 +2556,7 @@ add_popularity = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = SOR
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything

@@ -1,0 +1,15 @@
+idea_categories = {
+          nationalideas = {
+		  slot = nat_diplomatic
+		  slot = nat_military
+		  slot = nat_technology
+		  slot = nat_expansion
+		  slot = nat_population
+		  slot = nat_economic
+		  cost = 100
+		  removal_cost = 0
+		  }
+		  prioritizations = {
+		  slot = nat_pri
+		  }
+}

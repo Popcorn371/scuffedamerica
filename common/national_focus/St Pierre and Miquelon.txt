@@ -558,18 +558,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
 		}
 	}
@@ -1081,7 +1070,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PNL
 		completion_reward = {
 			create_wargoal = {
     		target = PNL
@@ -1106,7 +1095,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PNB
 		completion_reward = {
 			create_wargoal = {
 		target = PNB
@@ -1130,7 +1119,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = SME
 		completion_reward = {
 			create_wargoal = {
 			target = SME
@@ -1181,7 +1170,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PQC
 		completion_reward = {
 			create_wargoal = {
 		target = PQC
@@ -1304,7 +1293,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PEI
 		completion_reward = {
 			create_wargoal = {
     		target = PEI
@@ -1330,7 +1319,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		will_lead_to_war_with = PNS
 		completion_reward = {
 			create_wargoal = {
     		target = PNS
@@ -2003,6 +1992,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PEI
 		completion_reward = {
 			create_wargoal = {
 				target = PEI
@@ -2025,6 +2015,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PNS
 		completion_reward = {
 			create_wargoal = {
     		target = PNS
@@ -2047,6 +2038,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		will_lead_to_war_with = PNL
 		completion_reward = {
 			create_wargoal = {
 				target = PNL

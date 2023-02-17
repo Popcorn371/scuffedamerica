@@ -1,8 +1,7 @@
 technologies = {
 	
 	iw_small_airframe = {
- 
-		
+
 		enable_equipments = {
 			small_plane_airframe_0
 			small_plane_cas_airframe_0

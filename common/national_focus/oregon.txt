@@ -2669,6 +2669,7 @@ focus_tree = {
 		}
 		search_filters = {   }
 		available_if_capitulated = no
+		will_lead_to_war_with = SWA
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -2691,6 +2692,7 @@ focus_tree = {
 		}
 		search_filters = {   }
 		available_if_capitulated = no
+		will_lead_to_war_with = SCA
 		completion_reward = {		
 		create_wargoal = {
 				type = annex_everything
@@ -2713,6 +2715,7 @@ focus_tree = {
 		}
 		search_filters = {   }
 		available_if_capitulated = no
+		will_lead_to_war_with = SID
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -2754,6 +2757,8 @@ focus_tree = {
 		}
 		search_filters = {   }
 		available_if_capitulated = no
+		will_lead_to_war_with = PBC
+		will_lead_to_war_with = PYT
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything

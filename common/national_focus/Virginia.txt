@@ -1016,7 +1016,7 @@ focus_tree = {
 
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
-
+        will_lead_to_war_with = SMD
         completion_reward = {
 		country_event = {
 			id = virginia.11
@@ -1597,18 +1597,7 @@ add_timed_idea = {
         search_filters = { FOCUS_FILTER_POLITICAL }
 
         completion_reward = {
-        add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.5
-				uses = 1
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+        
         }
     }
      focus = {
@@ -4030,6 +4019,7 @@ add_timed_idea = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
         ###1% increae 
+        will_lead_to_war_with = SWV
         completion_reward = {
          create_wargoal = {
                 target = SWV
@@ -4110,6 +4100,7 @@ add_timed_idea = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
         ###1% increae 
+        will_lead_to_war_with = SMD
         completion_reward = {
          ###event opts for taking out Maryland or aligning them####
          	 create_wargoal = {
@@ -4255,6 +4246,7 @@ add_timed_idea = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
         ###1% increae 
+        will_lead_to_war_with = SPA
         completion_reward = {
          create_wargoal = {
                 target = SPA
@@ -4310,6 +4302,8 @@ add_timed_idea = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
         ###1% increae 
+        will_lead_to_war_with = SNC
+        will_lead_to_war_with = SSC
         completion_reward = {
          create_wargoal = {
                 target = SNC
@@ -6057,6 +6051,8 @@ add_timed_idea = {
         search_filters = { FOCUS_FILTER_POLITICAL }
         ###1% increae 
         ###news event
+        will_lead_to_war_with = SNC
+        will_lead_to_war_with = SSC
         completion_reward = {
           create_wargoal = {
                 target = SNC
@@ -6090,6 +6086,7 @@ add_timed_idea = {
         search_filters = { FOCUS_FILTER_POLITICAL }
         ###1% increae 
         ###news event
+        will_lead_to_war_with = STN
         completion_reward = {
           create_wargoal = {
                 target = STN

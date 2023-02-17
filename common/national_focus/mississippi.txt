@@ -2067,6 +2067,7 @@ focus = {
 		ai_will_do = {
 			factor = 160
 		}
+		will_lead_to_war_with = SFL
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -2132,6 +2133,7 @@ focus = {
 		ai_will_do = {
 			factor = 160
 		}
+		will_lead_to_war_with = MYU
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything
@@ -2160,6 +2162,10 @@ focus = {
 		ai_will_do = {
 			factor = 160
 		}
+		will_lead_to_war_with = MQR
+		will_lead_to_war_with = BLZ
+		will_lead_to_war_with = MCA
+		will_lead_to_war_with = GUA
 		completion_reward = {
 			create_wargoal = {
    			type = annex_everything

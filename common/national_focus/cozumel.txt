@@ -989,6 +989,8 @@ focus_tree = {
 			factor = 10
 		}
 
+		will_lead_to_war_with = MYU
+		will_lead_to_war_with = MCA
 		completion_reward = {
 		remove_ideas = COZ_government_in_exile
 		custom_effect_tooltip = COZ_core_TT

@@ -358,7 +358,7 @@ STN_tennessee_ponies = {
 		}
 #
 		STN_The_Agrarian_Army_idea = {
-            picture = agrarianfarmer
+            picture = crump_push
 			
 			allowed = {
 				tag = STN
@@ -368,9 +368,7 @@ STN_tennessee_ponies = {
 
 			}
 			
-            allowed_civil_war = {
-                always = yes
-            }
+           
 
             removal_cost = -1
 
@@ -498,7 +496,7 @@ STN_farmers_aide = {
 	      fascism_acceptance = 50
 			}
 		}
-		STN_down_with_scalawags = {
+		STN_down_with_scalawags_idea = {
             picture = arrests_police
 			
 			allowed = {

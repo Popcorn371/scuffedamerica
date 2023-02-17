@@ -228,7 +228,7 @@ focus = {
     focus = {
         id = TDW_Develop_rocket_weapons
         icon = GFX_focus_TDW_rocket
-        prerequisite = { focus = TDW_Anti_air_coordination focus = TDW_Develop_rocket_weapons}
+        prerequisite = { focus = TDW_Anti_air_coordination }
         available = {
 
         }
@@ -1004,7 +1004,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SNC
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1036,7 +1036,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SSC
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1061,7 +1061,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SGA
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1086,7 +1086,11 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SAL
+        will_lead_to_war_with = SMS
+        will_lead_to_war_with = FNS
+        will_lead_to_war_with = DOU
+        will_lead_to_war_with = SHE
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1139,6 +1143,7 @@ focus = {
 
         completion_reward = {
 		SLA = { add_timed_idea = { idea = TDW_communist_rebels  days = 80 }
+        will_lead_to_war_with = SLA
 		create_wargoal = {
 		type = annex_everything
 		target = SLA
@@ -1193,7 +1198,8 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = STX
+        will_lead_to_war_with = MTX
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1222,7 +1228,9 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = MTA
+        will_lead_to_war_with = MNL
+        will_lead_to_war_with = MCO
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1260,7 +1268,9 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = MDC
+        will_lead_to_war_with = MEX
+        will_lead_to_war_with = MTB
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1293,7 +1303,9 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = MYU
+        will_lead_to_war_with = MQR
+        will_lead_to_war_with = MCA
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1326,7 +1338,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = CUB
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1352,7 +1364,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SFL
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1388,7 +1400,8 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = MTA
+        will_lead_to_war_with = MNL
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1455,7 +1468,8 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SNC
+        will_lead_to_war_with = SSC
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1528,7 +1542,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SAL
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1553,7 +1567,7 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SMS
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -1650,7 +1664,8 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = SFL
+        will_lead_to_war_with = STX
         completion_reward = {
 		create_wargoal = {
 		type = take_state_focus
@@ -1679,7 +1694,9 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = CUB
+        will_lead_to_war_with = HAI
+        will_lead_to_war_with = JAM
         completion_reward = {
 		add_state_core = 477
 		add_state_core = 478
@@ -2059,7 +2076,8 @@ focus = {
         }
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_RESEARCH }
-
+        will_lead_to_war_with = WDC
+        will_lead_to_war_with = SMD
         completion_reward = {
 		create_wargoal = {
 		type = annex_everything
@@ -2708,18 +2726,7 @@ focus = {
         search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
 		}
     }
@@ -3046,18 +3053,7 @@ focus = {
         search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
 		}
     }

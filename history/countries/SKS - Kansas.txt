@@ -2,7 +2,7 @@ capital = 373
 
 oob = "SKS_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 set_technology = {
 	#infantry
 	infantry_weapons = 1
@@ -13,7 +13,6 @@ set_technology = {
 	interwar_antiair = 1
 	#air
 	 
-	fighter1 = 1
 	
 	#industry
 	fuel_silos = 1

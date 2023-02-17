@@ -1,6 +1,6 @@
 capital = 309
 
-oob = ""
+#oob = ""
 
 set_research_slots = 4
 set_technology = {

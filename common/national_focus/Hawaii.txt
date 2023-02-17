@@ -2767,6 +2767,7 @@ add_popularity = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = BAJ
 		completion_reward = { 
 			custom_effect_tooltip = SHI_USA_TT
 			unlock_decision_category_tooltip = SHI_return_to_the_continent_category			
@@ -2794,6 +2795,7 @@ add_popularity = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SAK
 		completion_reward = { 
 		add_political_power = -50
 		core_alaska = yes				
@@ -2830,6 +2832,7 @@ add_popularity = {
 		ai_will_do = {
 			factor = 100
 		}
+		will_lead_to_war_with = SCA
 		completion_reward = { 
 			add_timed_idea = {
 				idea = SHI_anti_cali

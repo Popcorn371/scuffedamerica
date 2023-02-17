@@ -2933,6 +2933,9 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		complete_tooltip = {
 	
 		}
+		will_lead_to_war_with = SIN
+		will_lead_to_war_with = SIL
+		will_lead_to_war_with = SKY
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -2969,6 +2972,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = SWV
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -3262,6 +3266,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = SMI
 		completion_reward = {
 			add_ideas = SOH_Jingoistic_fervor
 			create_wargoal = {
@@ -3342,6 +3347,8 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = SWI
+		will_lead_to_war_with = SPA
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -3373,6 +3380,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = SMN
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -3400,6 +3408,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = PON
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -3504,6 +3513,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = SPA
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -3533,6 +3543,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		available_if_capitulated = yes
 		complete_tooltip = {
 		}
+		will_lead_to_war_with = SNY
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -3560,6 +3571,12 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = SNJ
+		will_lead_to_war_with = SDE
+		will_lead_to_war_with = SMD
+		will_lead_to_war_with = NYC
+		will_lead_to_war_with = SCT
+		will_lead_to_war_with = SRI
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -3799,6 +3816,7 @@ continuous_focus_position = { x = 0001 y = 1000 }
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = yes
+		will_lead_to_war_with = STN
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything

@@ -1446,6 +1446,8 @@ focus_tree = {
 			factor = 1
 		}
 		available_if_capitulated = yes
+		will_lead_to_war_with = SNH
+		will_lead_to_war_with = SME
 		completion_reward = { 
 			claim_new_hampshire = yes
 			claim_maine = yes
@@ -1471,6 +1473,8 @@ focus_tree = {
 			factor = 1
 		}
 		available_if_capitulated = yes
+		will_lead_to_war_with = PNS
+		will_lead_to_war_with = PNB
 		completion_reward = { 
 			country_event = {
 				id = massachusetts.8
@@ -1628,6 +1632,7 @@ focus_tree = {
 			factor = 1
 		}
 		available_if_capitulated = yes
+		will_lead_to_war_with = SNY
 		completion_reward = { 
 			create_wargoal ={
 				type = annex_everything
@@ -1648,6 +1653,7 @@ focus_tree = {
 			factor = 1
 		}
 		available_if_capitulated = yes
+		will_lead_to_war_with = SNJ
 		completion_reward = { 
 			create_wargoal = {
 				type = annex_everything
@@ -1671,6 +1677,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			claim_newfoundland = yes
+			will_lead_to_war_with = PNL
 			create_wargoal = {
 				type = annex_everything
 				target = PNL
@@ -1690,6 +1697,8 @@ focus_tree = {
 		}
 		prerequisite = {focus = X }
 		available_if_capitulated = yes
+		will_lead_to_war_with = SCT
+		will_lead_to_war_with = SRI
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1716,6 +1725,7 @@ focus_tree = {
 		}
 		prerequisite = {focus = X }
 		available_if_capitulated = yes
+		will_lead_to_war_with = SPA
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -1737,6 +1747,7 @@ focus_tree = {
 		}
 		prerequisite = {focus = X }
 		available_if_capitulated = yes
+		will_lead_to_war_with = SVT
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -2572,6 +2583,7 @@ focus = {
 		}
 	}
 	available_if_capitulated = yes
+	will_lead_to_war_with = SRI
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
@@ -2596,6 +2608,7 @@ focus = {
 		}
 	}
 	available_if_capitulated = yes
+	will_lead_to_war_with = SME
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
@@ -2620,6 +2633,7 @@ focus = {
 		}
 	}
 	available_if_capitulated = yes
+	will_lead_to_war_with = SCT
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
@@ -2647,6 +2661,8 @@ focus = {
 		controls_new_england_trigger = yes
 		has_government = communism
 	}
+	will_lead_to_war_with = PNB
+	will_lead_to_war_with = PNS
 	completion_reward = {
 		core_new_hampshire = yes
 		core_maine = yes
@@ -2776,6 +2792,7 @@ focus = {
 		}
 	}
 	available_if_capitulated = yes
+	will_lead_to_war_with = SVT
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
@@ -2800,6 +2817,7 @@ focus = {
 		}
 	}
 	available_if_capitulated = yes
+	will_lead_to_war_with = SNH
 	completion_reward = {
 		create_wargoal = {
 			type = annex_everything
@@ -3465,6 +3483,7 @@ focus = {
 	available = {
 
 	}
+	will_lead_to_war_with = SVT
 	completion_reward = {
 		claim_vermont = yes
 		create_wargoal = {
@@ -3488,6 +3507,7 @@ focus = {
 	available = {
 
 	}
+	will_lead_to_war_with = SRI
 	completion_reward = {
 		claim_rhode_island = yes
 		create_wargoal = {
@@ -3511,6 +3531,7 @@ focus = {
 	available = {
 
 	}
+	will_lead_to_war_with = SCT
 	completion_reward = {
 		claim_connecticut = yes
 		create_wargoal = {
@@ -3534,6 +3555,7 @@ focus = {
 	available = {
 
 	}
+	will_lead_to_war_with = SNH
 	completion_reward = {
 		claim_new_hampshire = yes
 		create_wargoal = {
@@ -3557,6 +3579,7 @@ focus = {
 	available = {
 
 	}
+	will_lead_to_war_with = SME
 	completion_reward = {
 		claim_maine = yes
 		create_wargoal = {

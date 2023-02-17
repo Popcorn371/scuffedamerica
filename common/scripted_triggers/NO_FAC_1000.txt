@@ -222,8 +222,7 @@ DIPLOMACY_JOIN_FACTION_ENABLE_TRIGGER = {
 			OR = {
 			AND = {
 			ROOT = {has_war = yes}
-			var:ROOT.OriginalCapitalState = { distance_to = { value > 400 target = PREV
-			} } }
+			}
 			AND = {
 			ROOT = {has_war = no}
 			var:ROOT.capital = { distance_to = { value > 400 target = PREV
@@ -489,8 +488,7 @@ DIPLOMACY_OFFER_JOIN_FACTION_ENABLE_TRIGGER = {
 			OR = {
 			AND = {
 			ROOT = {has_war = yes}
-			var:ROOT.OriginalCapitalState = { distance_to = { value > 400 target = PREV
-			} } }
+			 }
 			AND = {
 			ROOT = {has_war = no}
 			var:ROOT.capital = { distance_to = { value > 400 target = PREV

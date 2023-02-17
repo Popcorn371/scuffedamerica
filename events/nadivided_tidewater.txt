@@ -80,7 +80,7 @@ country_event = {
 
 	trigger = {
 	SNC = { is_ai = yes }
-	{ has_government = communism }
+	#{ has_government = communism }
 	}
 	option = {
         name = tidewater.4.a

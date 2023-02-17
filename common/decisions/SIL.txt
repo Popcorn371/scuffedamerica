@@ -4,10 +4,10 @@ SIL_Dealing_with_the_mafia = {
 		icon = generic_prepare_civil_war
 
 		available = {
-			has_idea = SIL_Racketeering_Gone_Wild
+			#has_idea = SIL_Racketeering_Gone_Wild
 		}
 		allowed = {
-			has_idea = SIL_Racketeering_Gone_Wild
+			#has_idea = SIL_Racketeering_Gone_Wild
 		}
 		cost = 250
 		ai_will_do = {
@@ -16,10 +16,10 @@ SIL_Dealing_with_the_mafia = {
 		days_remove = 25
 
 		visible = {
-			has_idea = SIL_Racketeering_Gone_Wild
+		#	has_idea = SIL_Racketeering_Gone_Wild
 		}
 		remove_effect = {
-			remove_ideas = SIL_Racketeering_Gone_Wild
+		#	remove_ideas = SIL_Racketeering_Gone_Wild
 		}
 		complete_effect = {
 			state_event = {

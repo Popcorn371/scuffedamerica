@@ -501,7 +501,9 @@ continuous_focus_position = { x = 0001 y = 2000 }
 		complete_tooltip = {
 	
 		}
-	
+		will_lead_to_war_with = SIN
+		will_lead_to_war_with = SIL
+		will_lead_to_war_with = SKY
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -560,7 +562,9 @@ continuous_focus_position = { x = 0001 y = 2000 }
 		complete_tooltip = {
 	
 		}
-	
+		will_lead_to_war_with = SIN
+		will_lead_to_war_with = SKY
+		will_lead_to_war_with = SIL
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -606,7 +610,7 @@ continuous_focus_position = { x = 0001 y = 2000 }
 		complete_tooltip = {
 	
 		}
-	
+		will_lead_to_war_with = SWV
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything

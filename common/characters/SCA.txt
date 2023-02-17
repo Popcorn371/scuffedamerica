@@ -430,7 +430,7 @@ characters={
 		name = "SCA_military_factories"
 		portraits = {
 			army = {
-				small = "generic_army_europe_3"
+				small = "GFX_idea_generic_bourgeoisie"
 			}
 		}
 		advisor = {
@@ -449,7 +449,7 @@ characters={
 		name = "SCA_backroom_backstab_guy"
 		portraits = {
 			army = {
-				small = "generic_political_advisor_europe_3"
+				small = "GFX_idea_generic_hearty_seaman"
 			}
 		}
 		advisor = {

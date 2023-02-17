@@ -353,7 +353,8 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = SLA
+		will_lead_to_war_with = STL
 		completion_reward = {
 			add_ideas = ORL_Defensive_Doctrines
 			create_wargoal = {
@@ -956,7 +957,7 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = STX
 		completion_reward = {
 			claim_texas = yes		
 			create_wargoal = {
@@ -977,7 +978,7 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = SAR
 		completion_reward = {
 			claim_arkansas = yes			
 			create_wargoal = {
@@ -998,7 +999,7 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = SMS
 		completion_reward = {
 			claim_mississippi = yes			
 			create_wargoal = {
@@ -1019,7 +1020,7 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = SAL
 		completion_reward = {
 			claim_alabama = yes			
 			create_wargoal = {
@@ -1040,7 +1041,7 @@ focus_tree = {
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		available_if_capitulated = yes
-
+		will_lead_to_war_with = SGA
 		completion_reward = {
 			claim_georgia = yes			
 			create_wargoal = {
@@ -1389,7 +1390,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		add_to_tech_sharing_group = SNC_research
+		#add_to_tech_sharing_group = SNC_research
 
 		}
 	}

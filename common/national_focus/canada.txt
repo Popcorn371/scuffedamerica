@@ -1986,7 +1986,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2
 		}
-
+		will_lead_to_war_with = PNL
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
@@ -2054,6 +2054,10 @@ focus_tree = {
 			factor = 2
 		}
 
+		will_lead_to_war_with = BAH
+		will_lead_to_war_with = JAM
+		will_lead_to_war_with = BLZ
+		will_lead_to_war_with = CAY
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything

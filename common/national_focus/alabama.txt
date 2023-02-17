@@ -263,6 +263,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 80
 		}
+		will_lead_to_war_with = SGA
 		####we need some juicy expansion decisions  
 		completion_reward = { 
 			create_wargoal = {
@@ -320,7 +321,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 80
 		}
-		
+		will_lead_to_war_with = STN
 		completion_reward = { 
 		create_wargoal = {
                 target = STN
@@ -342,6 +343,7 @@ focus = {
 		ai_will_do = {
 			factor = 80
 		}
+		will_lead_to_war_with = SFL
 		####we need some juicy expansion decisions  
 		completion_reward = { 
 			add_state_core = 13
@@ -2125,6 +2127,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = CUB
         completion_reward = {
             create_wargoal = {
                 target = CUB
@@ -2146,6 +2149,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = CAY
         completion_reward = {
             create_wargoal = {
                 target = CAY
@@ -2167,6 +2171,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = BAH
         completion_reward = {
             create_wargoal = {
                 target = BAH
@@ -2188,6 +2193,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = HAI
         completion_reward = {
             create_wargoal = {
                 target = HAI
@@ -2264,6 +2270,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = DOM
         completion_reward = {
             create_wargoal = {
                 target = DOM
@@ -2285,6 +2292,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = PRR
         completion_reward = {
             create_wargoal = {
                 target = PRR
@@ -2306,6 +2314,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = CTR
         completion_reward = {
             create_wargoal = {
                 target = CTR
@@ -2327,6 +2336,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = BAR
         completion_reward = {
             create_wargoal = {
                 target = BAR
@@ -2348,6 +2358,7 @@ focus = {
 			factor = 100
 		}	
         ###wargoals+Cores
+		will_lead_to_war_with = UAF
 		completion_reward = {
             create_wargoal = {
                 target = UAF
@@ -2435,6 +2446,7 @@ focus = {
 		ai_will_do = {
 			factor = 320
 		}	
+		will_lead_to_war_with = SAL
         completion_reward = {
 			add_claim_by = SAL
 			create_wargoal = {
@@ -2525,6 +2537,7 @@ focus = {
 		}	
         ####will come with event###
 		####National event#########
+		will_lead_to_war_with = SMS
         completion_reward = {
            claim_mississippi = yes
             create_wargoal = {
@@ -4242,6 +4255,7 @@ focus = {
 		###Needs to be in faction with Jeffersonian League####
 		###will leave pack
 		##MAKE SURE THIS ISN'T WHEN ONE IS AT WAR######
+		will_lead_to_war_with = SLA
 		completion_reward = {
 		create_wargoal = {
 		type = puppet_wargoal_focus

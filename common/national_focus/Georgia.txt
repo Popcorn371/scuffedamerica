@@ -880,7 +880,7 @@ focus = {
 		cost = 10
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
+		will_lead_to_war_with = SAL
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1

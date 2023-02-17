@@ -6,11 +6,11 @@ NGame = {
 	MAP_SCALE_PIXEL_TO_KM = 7.114,					-- Yes, we did the math
 	SAVE_VERSION = 15,								-- 1.11.0 (Barbarossa)
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
-	LAG_DAYS_FOR_LOWER_SPEED = 10,					-- Days of client lag for decrease of gamespeed
-	LAG_DAYS_FOR_PAUSE = 25,						-- Days of client lag for pause of gamespeed.
+	LAG_DAYS_FOR_LOWER_SPEED = 1000,					-- Days of client lag for decrease of gamespeed
+	LAG_DAYS_FOR_PAUSE = 1000,						-- Days of client lag for pause of gamespeed.
 	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 	MAJOR_PARTICIPANTS_FOR_MAJOR_WAR = 3,			-- Minimum number of major countries involved in a war to consider it major enough to not end the game even though the enddate has been reached.
-	COMBAT_LOG_MAX_MONTHS = 12,
+	COMBAT_LOG_MAX_MONTHS = 6,
 	MESSAGE_TIMEOUT_DAYS = 60,						-- Useful if running the handsoff game. The popup messages that doesn't require the player respond will automatically hide after some timeout.
 	AIR_LOG_TIMEOUT_HOURS = 24,						-- Data storring data
 	EVENT_TIMEOUT_DEFAULT = 13,						-- Default days before an event times out if not scripted
@@ -756,9 +756,9 @@ NMilitary = {
 	MAX_DIVISION_SUPPORT_WIDTH = 1,			-- Max width of support in division designer.
 	MAX_DIVISION_SUPPORT_HEIGHT = 5,		-- Max height of support in division designer.
 
-	BASE_DIVISION_BRIGADE_GROUP_COST = 20, 	--Base cost to unlock a regiment slot,
-	BASE_DIVISION_BRIGADE_CHANGE_COST = 5,	--Base cost to change a regiment column.
-	BASE_DIVISION_SUPPORT_SLOT_COST = 10, 	--Base cost to unlock a support slot
+	BASE_DIVISION_BRIGADE_GROUP_COST = 0, 	--Base cost to unlock a regiment slot,
+	BASE_DIVISION_BRIGADE_CHANGE_COST = 0,	--Base cost to change a regiment column.
+	BASE_DIVISION_SUPPORT_SLOT_COST = 0, 	--Base cost to unlock a support slot
 
 	MAX_ARMY_EXPERIENCE = 500,			--Max army experience a country can store
 	MAX_NAVY_EXPERIENCE = 500,			--Max navy experience a country can store
@@ -3107,7 +3107,7 @@ NAI = {
 },
 
 NFocus = {
-	FOCUS_POINT_DAYS = 7,						-- Each point takes a week
+	FOCUS_POINT_DAYS = 3.5,						-- Each point takes a week
 	FOCUS_PROGRESS_PEACE = 1,					-- Progress during peace
 	FOCUS_PROGRESS_WAR = 1,					-- Progress during war
 	MAX_SAVED_FOCUS_PROGRESS = 10,				-- This much progress can be saved while not having a focus selected

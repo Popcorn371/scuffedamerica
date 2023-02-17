@@ -788,14 +788,7 @@ focus_tree = {
         search_filters = { FOCUS_FILTER_RESEARCH }
 
         completion_reward = {
-            add_tech_bonus = {
-                bonus = 1
-                uses = 2
-                ahead_reduction = 1
-                technology = CAS1
-                technology = CAS2
-                technology = CAS3
-            }
+
         }
     }
     focus = {
@@ -814,14 +807,14 @@ focus_tree = {
         search_filters = { FOCUS_FILTER_RESEARCH }
 
         completion_reward = {
-            add_tech_bonus = {
-                bonus = 1
-                uses = 2
-                ahead_reduction = 1
-                technology = naval_bomber1
-                technology = naval_bomber2
-                technology = naval_bomber3
-            }
+            #   add_tech_bonus = {
+            #    bonus = 1
+            #    uses = 2
+            #    ahead_reduction = 1
+            #    technology = naval_bomber1
+            #    technology = naval_bomber2
+            #    technology = naval_bomber3
+            #}
         }
     }
     focus = {
@@ -2066,7 +2059,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MMO
         completion_reward = {
             core_morelos = yes
             if = {
@@ -2128,7 +2121,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MGR
         completion_reward = {
             core_guerrero = yes
             if = {
@@ -2193,7 +2186,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MOX
         completion_reward = {
             core_oaxaca = yes
             if = {
@@ -2255,7 +2248,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MCI
         completion_reward = {
             core_chiapas = yes
             if = {
@@ -2320,7 +2313,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MCA
         completion_reward = {
             core_campeche = yes
             if = {
@@ -2385,7 +2378,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MQR
         completion_reward = {
             core_quintana_roo = yes
             if = {
@@ -2450,7 +2443,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MYU
         completion_reward = {
             core_yucatan = yes
             if = {
@@ -2509,7 +2502,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MOX
         completion_reward = {
             core_colima = yes
             if = {
@@ -2557,7 +2550,14 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MVE
+        will_lead_to_war_with = MSL
+        will_lead_to_war_with = MZA
+        will_lead_to_war_with = MDU
+        will_lead_to_war_with = MJA
+        will_lead_to_war_with = MAG
+        will_lead_to_war_with = MNA
+        will_lead_to_war_with = MDC
         completion_reward = {
             core_the_cartels = yes
             if = {
@@ -2820,7 +2820,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = BAJ
         completion_reward = {
             core_baja_california = yes
             if = {
@@ -2888,7 +2888,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MSO
         completion_reward = {
             core_sonora = yes
             if = {
@@ -2956,7 +2956,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MSI
         completion_reward = {
             core_sinaloa = yes
             if = {
@@ -3024,7 +3024,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MCH
         completion_reward = {
             core_chihuahua = yes
             if = {
@@ -3089,7 +3089,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MCO
         completion_reward = {
             core_tamaulipas = yes
             if = {
@@ -3154,7 +3154,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MNL
         completion_reward = {
             core_nuevo_leon = yes
             if = {
@@ -3222,7 +3222,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MTA
         completion_reward = {
             core_tamaulipas = yes
             if = {
@@ -3290,7 +3290,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MTB
         completion_reward = {
             core_tabasco = yes
             if = {
@@ -4134,7 +4134,14 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = MVE
+        will_lead_to_war_with = MSL
+        will_lead_to_war_with = MZA
+        will_lead_to_war_with = MDU
+        will_lead_to_war_with = MJA
+        will_lead_to_war_with = MAG
+        will_lead_to_war_with = MNA
+        will_lead_to_war_with = MDC
         completion_reward = {
             if = {
                 limit = {
@@ -4436,7 +4443,13 @@ focus_tree = {
             factor = 1
         }
         available_if_capitulated = no
-
+        will_lead_to_war_with = BAJ
+        will_lead_to_war_with = MSO
+        will_lead_to_war_with = MSI
+        will_lead_to_war_with = MCH
+        will_lead_to_war_with = MCO
+        will_lead_to_war_with = MNL
+        will_lead_to_war_with = MTA
         completion_reward = {
             create_wargoal = {
                 type = annex_everything

@@ -1,0 +1,348 @@
+leader_traits = {
+nat_diplomatictraits_0 = {
+random = no
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_diplomatictraits_1 = {
+random = no
+political_power_gain = 0.20
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_diplomatictraits_2 = {
+random = no
+political_power_gain = 0.40
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_diplomatictraits_3 = {
+random = no
+political_power_gain = 0.60
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_diplomatictraits_4 = {
+random = no
+political_power_gain = 0.80
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_diplomatictraits_5 = {
+random = no
+political_power_gain = 1.00
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_militarytraits_0 = {
+random = no
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_militarytraits_1 = {
+random = no
+army_org_factor = 0.02
+training_time_factor = -0.02
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_militarytraits_2 = {
+random = no
+army_org_factor = 0.05
+training_time_factor = -0.05
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_militarytraits_3 = {
+random = no
+army_org_factor = 0.08
+training_time_factor = -0.08
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_militarytraits_4 = {
+random = no
+army_org_factor = 0.10
+training_time_factor = -0.10
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_militarytraits_5 = {
+random = no
+army_org_factor = 0.12
+training_time_factor = -0.12
+army_morale_factor = 0.10
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_technologytraits_0 = {
+random = no
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_technologytraits_1 = {
+random = no
+research_speed_factor = 0.02
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_technologytraits_2 = {
+random = no
+research_speed_factor = 0.04
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_technologytraits_3 = {
+random = no
+research_speed_factor = 0.06
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_technologytraits_4 = {
+random = no
+research_speed_factor = 0.08
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_technologytraits_5 = {
+random = no
+research_speed_factor = 0.1
+global_building_slots_factor = 0.1
+ai_will_do = {
+factor = 0
+}
+}
+
+
+nat_expansiontraits_0 = {
+random = no
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_expansiontraits_1 = {
+random = no
+justify_war_goal_time = -0.04
+resistance_growth = -0.02
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_expansiontraits_2 = {
+random = no
+justify_war_goal_time = -0.08
+resistance_growth = -0.04
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_expansiontraits_3 = {
+random = no
+justify_war_goal_time = -0.12
+resistance_growth = -0.06
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_expansiontraits_4 = {
+random = no
+justify_war_goal_time = -0.16
+resistance_growth = -0.08
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_expansiontraits_5 = {
+random = no
+justify_war_goal_time = -0.20
+resistance_growth = -0.10
+resistance_target = -0.05
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_populationtraits_0 = {
+random = no
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_populationtraits_1 = {
+random = no
+conscription_factor = 0.04
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_populationtraits_2 = {
+random = no
+conscription_factor = 0.08
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_populationtraits_3 = {
+random = no
+conscription_factor = 0.12
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_populationtraits_4 = {
+random = no
+conscription_factor = 0.16
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_populationtraits_5 = {
+random = no
+conscription_factor = 0.20
+monthly_population = 0.15
+conscription = 0.005
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_economictraits_0 = {
+random = no
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_economictraits_1 = {
+random = no
+production_speed_buildings_factor = 0.03
+industrial_capacity_factory = 0.03
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_economictraits_2 = {
+random = no
+production_speed_buildings_factor = 0.06
+industrial_capacity_factory = 0.06
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_economictraits_3 = {
+random = no
+production_speed_buildings_factor = 0.09
+industrial_capacity_factory = 0.09
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_economictraits_4 = {
+random = no
+production_speed_buildings_factor = 0.11
+industrial_capacity_factory  = 0.11
+ai_will_do = {
+factor = 0
+}
+}
+
+nat_economictraits_5 = {
+random = no
+production_speed_buildings_factor = 0.13
+industrial_capacity_factory = 0.13
+consumer_goods_factor = -0.05
+ai_will_do = {
+factor = 0
+}
+}
+nat_army_pritraits = {
+random = no
+
+production_speed_arms_factory_factor = 0.1
+army_defence_factor = 0.05	
+army_attack_factor = 0.05
+land_doctrine_cost_factor = -0.10
+experience_gain_army_factor = 0.10
+experience_gain_navy_factor = -0.10
+experience_gain_air_factor = -0.10
+ai_will_do = {
+factor = 0
+}
+}
+nat_navy_pritraits = {
+random = no
+
+production_speed_dockyard_factor = 0.1
+experience_gain_navy_unit_factor = 0.05
+navy_visibility = -0.1
+navy_weather_penalty = -0.1
+naval_doctrine_cost_factor = -0.10
+experience_gain_navy_factor = 0.10
+experience_gain_army_factor = -0.10
+experience_gain_air_factor = -0.10
+ai_will_do = {
+factor = 0
+}
+}
+nat_air_pritraits = {
+random = no
+
+production_speed_arms_factory_factor = 0.1
+air_defence_factor = 0.05	
+air_attack_factor = 0.05
+air_doctrine_cost_factor = -0.10
+experience_gain_air_factor = 0.10
+experience_gain_navy_factor = -0.10
+experience_gain_army_factor = -0.10
+ai_will_do = {
+factor = 0
+}
+}
+}

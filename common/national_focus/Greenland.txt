@@ -1705,9 +1705,7 @@ focus_tree = {
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			set_technology = {
-    		naval_bomber1 = 1
-			}
+			
 		}
 	}
 

@@ -59,6 +59,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 0
 		}
+		will_lead_to_war_with = BAJ
 		completion_reward= {
 		create_wargoal = {
 				type = annex_everything
@@ -84,6 +85,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 320
 		}
+		will_lead_to_war_with = MSO
 		completion_reward= {
 		create_wargoal = {
 				type = annex_everything
@@ -109,6 +111,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 0
 		}
+		will_lead_to_war_with = MDC
 		completion_reward= {
 		create_wargoal = {
 				type = annex_everything
@@ -134,6 +137,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 0
 		}
+		will_lead_to_war_with = NIC
 		completion_reward= {
 		create_wargoal = {
 				type = annex_everything
@@ -1467,6 +1471,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SNV
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1503,6 +1508,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = BAJ
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1584,6 +1590,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SUT
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1613,6 +1620,8 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SID
+		will_lead_to_war_with = SWY
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1683,6 +1692,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SWA
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1748,6 +1758,8 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SOR
+		will_lead_to_war_with = SRO
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -1809,6 +1821,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SAZ
 		completion_reward = {
 		create_wargoal = {
 				type = annex_everything
@@ -5724,6 +5737,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SAZ
 		completion_reward = { 
 			create_wargoal = {
 				type = annex_everything
@@ -5747,6 +5761,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SNV
 		completion_reward = { 
 			create_wargoal = {
 				type = annex_everything
@@ -5774,6 +5789,9 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SUT
+		will_lead_to_war_with = BAJ
+		will_lead_to_war_with = SOR
 		completion_reward = { 
 		core_arizona = yes
 		core_nevada = yes
@@ -6160,6 +6178,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SAZ
 		completion_reward = { 
 			create_wargoal = {
 				type = annex_everything
@@ -6181,6 +6200,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = SNV
 		completion_reward = { 
 			create_wargoal = {
 				type = annex_everything
@@ -6472,6 +6492,7 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 1
 		} 
+		will_lead_to_war_with = BAJ
 		#create BAJA PUPPET RAN BY ROY DISNEY
 		completion_reward = {
 		create_wargoal = {

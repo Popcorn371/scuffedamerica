@@ -2477,7 +2477,7 @@ focus_tree = {
 			factor = 2
 		}
  
-
+		will_lead_to_war_with = SOH
 		completion_reward = {
 			 create_wargoal = {
                 target = SOH

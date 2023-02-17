@@ -2,7 +2,7 @@
 
 oob = "SMA_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 set_technology = {
 	synth_oil_experiments = 1
 	infantry_weapons = 1

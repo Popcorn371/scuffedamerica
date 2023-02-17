@@ -1416,7 +1416,7 @@ focus = {
 ###event 
 		completion_reward = {
 			#claim on kentuky and north carolina and quicker war goal speed
-			add_ideas = STN_down_with_scalawags
+			add_ideas = STN_down_with_scalawags_idea
 		}
 	}
 	##no need for cores, player can create csa if they win
@@ -1461,6 +1461,7 @@ focus = {
 		relative_position_id = STN_expand_into_deep_south
 		available_if_capitulated = no
 ###event 
+	will_lead_to_war_with = SAL
 		completion_reward = {
 			create_wargoal = {
                 target = SAL
@@ -1492,6 +1493,7 @@ focus = {
           relative_position_id = STN_grab_kentucky
 		available_if_capitulated = yes
 ###event 
+	will_lead_to_war_with = SNC
 		completion_reward = {
 		 create_wargoal = {
                 target = SNC
@@ -2303,7 +2305,7 @@ focus = {
           relative_position_id = STN_army_high_command
 		available_if_capitulated = yes
 		##add generals 
-
+		will_lead_to_war_with = SLA
 		completion_reward = {
 			 create_wargoal = {
                 target = SLA
@@ -3215,18 +3217,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 1
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
 		}
 	}
@@ -3308,13 +3299,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
-			}
+			
 		}
 	}
 

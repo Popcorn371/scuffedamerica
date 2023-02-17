@@ -1101,15 +1101,7 @@ focus_tree = {
         search_filters = { FOCUS_FILTER_RESEARCH }
 
         completion_reward = {
-            add_tech_bonus = {
-                bonus = 1
-                uses = 2
-                ahead_reduction = 2
-                technology = early_fighter
-                technology = fighter1
-                technology = fighter2
-                technology = fighter3
-            }
+           
         }
     }
 #######################################
@@ -1484,7 +1476,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = SMD
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1540,7 +1532,8 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = SMD
+        will_lead_to_war_with = WDC
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -1760,7 +1753,7 @@ focus_tree = {
         will_lead_to_war_with = SNY
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = SNY
         completion_reward = {
             create_wargoal = {
                 target = SNY
@@ -3702,7 +3695,7 @@ focus_tree = {
 				}
 			}
 		}
-
+        will_lead_to_war_with = SNY
         completion_reward = {
 			if = {
 				limit = {
@@ -3945,7 +3938,9 @@ focus_tree = {
         }
         available_if_capitulated = yes
         search_filters = {  }
-
+        will_lead_to_war_with = SOH
+        will_lead_to_war_with = SIL
+        will_lead_to_war_with = SWI
         completion_reward = {
             claim_ohio = yes
             claim_illinois = yes
@@ -4346,18 +4341,7 @@ focus_tree = {
         search_filters = {  }
 
         completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
 			air_experience = 50
         }
     }
@@ -4987,18 +4971,6 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
 			air_experience = 25
         }
     }
@@ -6767,7 +6739,7 @@ focus_tree = {
         }
         available_if_capitulated = no
         search_filters = { FOCUS_FILTER_ANNEXATION }
-
+        will_lead_to_war_with = SNJ
         completion_reward = {
             create_wargoal = {
                 target = SNJ
