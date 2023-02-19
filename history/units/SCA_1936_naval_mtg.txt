@@ -29,8 +29,7 @@
 			ship = { name = "CNA Colorado" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SCA version_name = "Colorado Class" } } }		
 			ship = { name = "CNA" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SCA version_name = "Colorado Class" } } }
 			ship = { name = "CNA Mojave Bend" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Ranger Class" } } 
-				air_wings = {
-				}
+				
 			}				
 		}
 	}
