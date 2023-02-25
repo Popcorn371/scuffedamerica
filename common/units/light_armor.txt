@@ -27,7 +27,7 @@ sub_units = {
 		need = {
 			light_tank_chassis = 60
 		}
-		manpower = 250
+		manpower = 500
 		max_organisation = 10
 		default_morale = 0.3
 		training_time = 180
@@ -37,6 +37,8 @@ sub_units = {
 
 		#Tanks are awesome
 		# soft_attack = 0.5
+
+		breakthrough = 0.15
 
 		suppression = 2.5
 

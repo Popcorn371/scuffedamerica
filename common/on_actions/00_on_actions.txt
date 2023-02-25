@@ -7,6 +7,14 @@ on_actions = {
 			100 = ace_promoted.1
 			5 = ace_promoted.2
 		}
+	
+	
+	}
+
+	on_faction_formed = {
+		effect = {
+			news_event = { id = news.159 }
+		}
 	}
 	
 	# Ace pilots
@@ -244,6 +252,31 @@ on_actions = {
 			news_event = { id = country_capitulated.0 days = 0 }
 		}
 	}
+	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { is_ai = no }
+					ROOT = { 
+						NOT = { any_allied_country = { has_war_with = FROM } }
+						is_in_faction = no 
+						has_civil_war = no
+						is_puppet = no
+						is_ai = yes					
+			}
+			}
+			ROOT = {
+				transfer_navy = { target = FROM }
+			}
+
+			FROM = {
+				annex_country = {
+					target = ROOT
+				}
+			}
+		}
+	}
 
 	on_coup_succeeded = {
 		effect = {
@@ -305,25 +338,25 @@ on_actions = {
 	}
 	
 	# From is owner country
-	#on_army_leader_daily = {
-	#	effect = {
-	#		if = {
-	#			limit = {
-	#				check_variable = { random < 0.02 }
-	#				NOT = { has_trait = sick }
-	#				set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
-	#				divide_temp_variable = { temp = num_units }
-	#				check_variable = { temp > 0.75 }
-	#				NOT = { has_unit_leader_flag = recently_sick }
-	#			}
-	#			add_timed_unit_leader_trait = {
-	#				trait = sick
-	#				days = 30
-	#			}
-				#unit_leader_event = { id = generic.17 }
-	#		}
-	#	}
-	#}
+	on_army_leader_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { random < 0.02 }
+					NOT = { has_trait = sick }
+					set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
+					divide_temp_variable = { temp = num_units }
+					check_variable = { temp > 0.75 }
+					NOT = { has_unit_leader_flag = recently_sick }
+				}
+				add_timed_unit_leader_trait = {
+					trait = sick
+					days = 30
+				}
+				unit_leader_event = { id = generic.17 }
+			}
+		}
+	}
 	
 	# From is owner country
 	on_army_leader_won_combat = {
@@ -435,4 +468,5 @@ on_actions = {
 		}
 	}
 	
+}
 }
