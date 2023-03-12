@@ -6,31 +6,7 @@ ideas = {
 ###                     TEMPLATE                     ###
 ########################################################
 
-		PAB_template = {
-            picture = GFX_idea_civialian_economy
-			
-			allowed = {
-				tag = SMI
-			}
-			
-			available = {
-
-			}
-			
-			cancel = {
-
-			}
-
-            allowed_civil_war = {
-                always = yes
-            }
-
-            removal_cost = -1
-
-            modifier = {
-				
-			}
-		}
+		
 
 ########################################################
 #
@@ -103,6 +79,257 @@ SMI_Mighigan_Rifles = {
                 industrial_capacity_factory = -0.10
 			}
 	}
+	SMI_great_depression = {
+		picture = great_depression 
+		
+		allowed = {
+			tag = SMI
+		}
+		
+		available = {
+
+		}
+		
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+
+		modifier = {
+			industrial_capacity_factory = -0.35
+			consumer_goods_factor = 0.15
+		}
+}
+
+SMI_recoving_from_great_depression = {
+	picture = closedfactory 
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		industrial_capacity_factory = -0.25
+		consumer_goods_factor = 0.10
+	}
+}
+
+SMI_unorganised_eco = {
+	picture = closedfactory 
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		consumer_goods_factor = 0.05
+	}
+}
+
+SMI_banned_communist = {
+	picture = generic_communism_banned
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		stability_factor = -0.05
+		communism_drift = -0.05
+	}
+}
+
+SMI_banned_unions = {
+	picture = banned_unions 
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		consumer_goods_factor = -0.05
+		industrial_capacity_factory = -0.05
+	}
+}
+
+SMI_unorganised_political = {
+	picture =  chi_hyper_inflation2
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		political_power_gain  = -0.15
+		stability_factor = -0.05
+	}
+}
+
+SMI_a_developing_nation = {
+	picture =  improved_economy
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		consumer_goods_factor = -0.05
+	}
+}
+
+SMI_inf_focus = {
+	picture = generic_infantry_equipment_manufacturer_2
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	equipment_bonus = {
+		infantry_weapons = {
+			build_cost_ic = -0.1 instant = yes
+		}
+	}
+	modifier = {
+		army_infantry_attack_factor = 0.05
+		army_infantry_defence_factor = 0.05
+	}
+}
+
+SMI_motor_focus = {
+	picture = FRA_motorized_focus
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	equipment_bonus = {
+		motorized_equipment = {
+			build_cost_ic = -0.1 instant = yes
+		}
+	}
+	modifier = {
+		motorized_attack_factor = 0.05
+		motorized_defence_factor = 0.05
+	}
+}
+
+SMI_unorganised_army = {
+	picture =  chi_incompetent_officers
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		equipment_capture_factor = -0.25
+		supply_consumption_factor = 0.5
+		attrition = 0.1
+		conscription_factor = -0.30
+		army_attack_factor = -0.15
+		army_defence_factor = -0.15
+		army_org_factor = -0.1
+
+	}
+}
+
+
 	SMI_business_is_booming = {
             picture = capitalists_hat
 			
@@ -125,6 +352,196 @@ SMI_Mighigan_Rifles = {
                 consumer_goods_factor = -0.05
 			}
 	}
+
+	SMI_socialist_influence = {
+		picture = socialist_support
+		
+		allowed = {
+			tag = SMI
+		}
+		
+		available = {
+
+		}
+		
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+
+
+		modifier = {
+			communism_drift = 0.10
+		}
+}
+SMI_republican_influence = {
+	picture = republican_Influences
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		neutrality_drift = 0.10
+	}
+}
+SMI_democrat_influence = {
+	picture = democratic_lessons
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		democratic_drift = 0.10
+	}
+}
+
+SMI_construstion_efforts = {
+	picture = generic_consumer_goods
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		consumer_goods_factor = 0.03
+		add_stability = -0.05
+	}
+}
+
+SMI_neutrality2 = {
+	picture = neutrality_idea
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		consumer_goods_factor = -0.02
+		enemy_justify_war_goal_time = 2.0
+		stability_factor = 0.05
+		join_faction_tension = 0.7
+		justify_war_goal_time = 0.5
+	}
+}
+
+SMI_interventionist2 = {
+	picture = generic_war_preparation
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		stability_factor = 0.05
+		justify_war_goal_time = -0.25
+	}
+}
+
+
+
+SMI_workers_union = {
+	picture = SCA_union_support
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		consumer_goods_factor = -0.02
+		industrial_capacity_factory = 0.05
+	}
+}
+SMI_fascist_influence = {
+	picture = generic_fascism_rising
+	
+	allowed = {
+		tag = SMI
+	}
+	
+	available = {
+
+	}
+	
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+
+	modifier = {
+		fascism_drift = 0.10
+	}
+}
 #######################################################
 	}
 	

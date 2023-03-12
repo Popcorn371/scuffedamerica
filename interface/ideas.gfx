@@ -2748,8 +2748,18 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_democratic_lessons"
+		texturefile = "gfx/interface/ideas/idea_democratic_lessons.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_chi_incompetent_officers"
 		texturefile = "gfx/interface/ideas/idea_chi_incompetent_officers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_socialist_support"
+		texturefile = "gfx/interface/ideas/idea_socialist_support.dds"
 	}
 	
 	spriteType = {

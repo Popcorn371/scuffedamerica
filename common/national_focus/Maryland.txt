@@ -2089,18 +2089,33 @@ focus_tree = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
+
+if = {
+    limit = { NOT = {has_dlc = "By Blood Alone"} }
+    add_tech_bonus = {
+        name = fighter_bonus
+        bonus = 1.0
+        uses = 2
+        technology = early_fighter
+        technology = fighter1
+        technology = fighter2
+        technology = fighter3
+        technology = heavy_fighter1
+        technology = heavy_fighter2
+        technology = heavy_fighter3
+}
+}
+if = {
+    limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+    name = fighter_bonus
+    bonus = 1.0
+    uses = 2
+    category = light_fighter
+
+}
+}
 			air_experience = 50
 		}
     }
@@ -3863,18 +3878,33 @@ focus_tree = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
+
+if = {
+    limit = { NOT = {has_dlc = "By Blood Alone"} }
+    add_tech_bonus = {
+        name = fighter_bonus
+        bonus = 1.0
+        uses = 2
+        technology = early_fighter
+        technology = fighter1
+        technology = fighter2
+        technology = fighter3
+        technology = heavy_fighter1
+        technology = heavy_fighter2
+        technology = heavy_fighter3
+}
+}
+if = {
+    limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+    name = fighter_bonus
+    bonus = 1.0
+    uses = 2
+    category = light_fighter
+
+}
+}
 			air_experience = 50
 		}
     }
@@ -3970,6 +4000,8 @@ focus_tree = {
         available_if_capitulated = yes
         search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			if = {
+				limit = { NOT = {has_dlc = "By Blood Alone"} }
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
@@ -3979,6 +4011,17 @@ focus_tree = {
 				technology = strategic_bomber3
 				category = tactical_bomber
 			}
+		}
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = medium_air
+				category = heavy_air
+			}
+		}
 			air_experience = 50
 		}
     }

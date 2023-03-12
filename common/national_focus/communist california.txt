@@ -396,15 +396,28 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_tech_bonus = {
+			if = {
+				limit = { NOT = {has_dlc = "By Blood Alone"} }
+			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				technology = strategic_bomber1
 				technology = strategic_bomber2
 				technology = strategic_bomber3
 				category = tactical_bomber
-			}	
+			}
+		}
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = medium_air
+				category = heavy_air
+			}
+		}
 		
 		}
 	}
@@ -478,15 +491,33 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 1
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-			}	
+		
+
+if = {
+	limit = { NOT = {has_dlc = "By Blood Alone"} }
+	add_tech_bonus = {
+		name = fighter_bonus
+		bonus = 1.0
+		uses = 2
+		technology = early_fighter
+		technology = fighter1
+		technology = fighter2
+		technology = fighter3
+		technology = heavy_fighter1
+		technology = heavy_fighter2
+		technology = heavy_fighter3
+}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1.0
+	uses = 2
+	category = light_fighter
+
+}
+}	
 		hidden_effect = {
 			if = {
 				limit = { is_ai = yes }
@@ -523,15 +554,7 @@ focus_tree = {
 				uses = 1
 				category = air_doctrine
 			}	
-		add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 1
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+		
 		}
 	}
 	focus = {

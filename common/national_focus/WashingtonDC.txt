@@ -2372,13 +2372,28 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				uses = 1
-				ahead_reduction = 3
-				technology = fighter3
-				technology = jet_fighter1
-				technology = jet_fighter2
-			}
+			
+if = {
+	limit = { NOT = {has_dlc = "By Blood Alone"} }
+	add_tech_bonus = {
+		name = fighter_bonus
+		bonus = 1.0
+		uses = 2
+
+		technology = fighter3
+
+}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1.0
+	uses = 2
+	category = light_fighter
+
+}
+}
 		}
 	}
 #
@@ -2423,8 +2438,12 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
+			
+			
+if = {
+	limit = { NOT = {has_dlc = "By Blood Alone"} }
+	add_tech_bonus = {
+		bonus = 0.5
 				uses = 2
 				ahead_reduction = 1
 				technology = jet_fighter1
@@ -2432,7 +2451,18 @@ focus = {
 				technology = jet_tactical_bomber1
 				technology = jet_tactical_bomber2
 				technology = jet_strategic_bomber1
-			}
+}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1.0
+	uses = 2
+	category = light_fighter
+
+}
+}
 		}
 	}
 #

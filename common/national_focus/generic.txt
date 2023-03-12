@@ -477,22 +477,48 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+		
+			
+			completion_reward = {
 			air_experience = 25
-		}
+			#hidden_effect = {
+				if = {
+					limit = { NOT = {has_dlc = "By Blood Alone"} }
+					add_tech_bonus = {
+						name = fighter_bonus
+						bonus = 1.0
+						uses = 2
+						technology = early_fighter
+						technology = fighter1
+						technology = fighter2
+						technology = fighter3
+						technology = heavy_fighter1
+						technology = heavy_fighter2
+						technology = heavy_fighter3
+				}
+			}
+			#if {
+			#	limit = { has_dlc = "By Blood Alone"}
+			if = {
+					limit = { has_dlc = "By Blood Alone" }
+				add_tech_bonus = {
+					name = fighter_bonus
+					bonus = 1.0
+					uses = 2
+					technology = iw_small_airframe
+					technology = basic_small_airframe
+					technology = improved_small_airframe
+					technology = advanced_small_airframe
+					technology = modern_small_airframe
+				
+				}
+			}
+			#}
+			#}
+		    }
+		
 	}
+	
 
 	focus = {
 		id = bomber_focus
@@ -513,6 +539,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			if = {
+				limit = { NOT = {has_dlc = "By Blood Alone"} }
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
@@ -522,6 +550,27 @@ focus_tree = {
 				technology = strategic_bomber3
 				category = tactical_bomber
 			}
+		}
+
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				technology = iw_medium_airframe
+				technology = basic_medium_airframe
+				technology = improved_medium_airframe
+				technology = advanced_medium_airframe
+				technology = iw_large_airframe
+				technology = basic_large_airframe
+				technology = improved_large_airframe
+				technology = advanced_large_airframe
+
+				
+			}
+		}
+
 			air_experience = 50
 		}
 	}
@@ -643,33 +692,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = CAS_effort
-		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = aviation_effort_2 }
-		prerequisite = { focus = motorization_effort1 }
-		x = -1
-		y = 1
-		relative_position_id = aviation_effort_2
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAS_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = cas_bomber
-			}
-		}
-	}
+	
 
 	focus = {
 		id = rocket_effort
@@ -684,13 +707,28 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
+			if = {
+				limit = { NOT = {has_dlc = "By Blood Alone"} }
+				add_tech_bonus = {
 				name = jet_rocket_bonus
 				ahead_reduction = 2
 				uses = 2
 				category = rocketry
 				category = jet_technology
+				}
 			}
+			if = {
+				limit = { has_dlc = "By Blood Alone" }
+				add_tech_bonus = {
+					name = jet_rocket_bonus
+					ahead_reduction = 2
+					uses = 2
+					category = rocketry
+					technology = jet_engines
+					category = jet_technology
+					}
+			}
+
 		}
 
 		ai_will_do = {
@@ -702,44 +740,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = NAV_effort
-		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = aviation_effort_2 }
-		x = 1
-		y = 1
-		relative_position_id = aviation_effort_2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 4
-		}
-		#crashes?
-		#completion_reward = {
-		#hidden_effect = {
-		#	if = {
-		#		limit = { is_ai = yes }
-		#		add_equipment_to_stockpile = {
-		#			type = nav_bomber_equipment_1
-		#			amount = 210
-		#			producer = WDC
-		#			}
-		#		}
-		#	}
-		#}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = nav_bomber_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = naval_bomber
-			}
-		}
-	}
 
 	focus = {
 		id = naval_effort

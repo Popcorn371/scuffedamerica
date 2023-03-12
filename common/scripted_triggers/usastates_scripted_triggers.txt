@@ -943,6 +943,16 @@ controls_all_of_oregon_trigger = {
 	}
 }
 
+controls_all_of_superior_trigger = {
+	AND = {
+		controls_state = 746
+		controls_state = 231
+		controls_state = 89
+		controls_state = 90
+		controls_state = 505
+	}
+}
+
 #other oregons#
 
 controls_oregon_proper_trigger = {

@@ -926,18 +926,33 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = { 
 			air_experience = 25
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 0.1
-				uses = 1
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
+
+if = {
+	limit = { NOT = {has_dlc = "By Blood Alone"} }
+	add_tech_bonus = {
+		name = fighter_bonus
+		bonus = 1.0
+		uses = 2
+		technology = early_fighter
+		technology = fighter1
+		technology = fighter2
+		technology = fighter3
+		technology = heavy_fighter1
+		technology = heavy_fighter2
+		technology = heavy_fighter3
+}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1.0
+	uses = 2
+	category = light_fighter
+
+}
+}
 		}
 	}
 	focus = {
@@ -4574,18 +4589,33 @@ focus = {
 		available_if_capitulated = yes
 		prerequisite = { focus = SMA_Establishing_Our_Airforce }
 		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
-			}
+			
+
+if = {
+	limit = { NOT = {has_dlc = "By Blood Alone"} }
+	add_tech_bonus = {
+		name = fighter_bonus
+		bonus = 1.0
+		uses = 2
+		technology = early_fighter
+		technology = fighter1
+		technology = fighter2
+		technology = fighter3
+		technology = heavy_fighter1
+		technology = heavy_fighter2
+		technology = heavy_fighter3
+}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+add_tech_bonus = {
+	name = fighter_bonus
+	bonus = 1.0
+	uses = 2
+	category = light_fighter
+
+}
+}
 			air_experience = 50
 		}
 	}

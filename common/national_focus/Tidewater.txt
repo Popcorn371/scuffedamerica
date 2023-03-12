@@ -3023,6 +3023,8 @@ focus = {
         search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			if = {
+				limit = { NOT = {has_dlc = "By Blood Alone"} }
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
@@ -3032,6 +3034,17 @@ focus = {
 				technology = strategic_bomber3
 				category = tactical_bomber
 			}
+		}
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = medium_air
+				category = heavy_air
+			}
+		}
 		}
     }
 
@@ -3131,6 +3144,8 @@ focus = {
 
 
 		completion_reward = {
+			if = {
+				limit = { NOT = {has_dlc = "By Blood Alone"} }
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
@@ -3140,6 +3155,17 @@ focus = {
 				technology = strategic_bomber3
 				category = tactical_bomber
 			}
+		}
+		if = {
+			limit = { has_dlc = "By Blood Alone" }
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.0
+				uses = 2
+				category = medium_air
+				category = heavy_air
+			}
+		}
 
 		}
         
