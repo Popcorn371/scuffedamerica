@@ -1776,7 +1776,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = SMI_fascist_influence
 			add_popularity = {
-				ideology = fascist
+				ideology = fascism
 				popularity = 0.15
 			}
 		}
@@ -1796,7 +1796,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-				ideology = fascist
+				ideology = fascism
 				popularity = 0.10
 			}
 			set_politics = {
